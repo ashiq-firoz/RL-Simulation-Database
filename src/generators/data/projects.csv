@@ -1,0 +1,26 @@
+p_id,name,type,team,priority,quarter
+P-01,Project Apollo: Kubernetes Migration,Engineering,Infrastructure,Critical,Q1
+P-02,Zero-Trust Security Audit,Security,Infrastructure,High,Q1
+P-11,Multi-Region Failover Setup,Engineering,Infrastructure,Medium,Q2
+P-21,Cloud Cost Optimization (FinOps),Operations,Infrastructure,Low,Q2
+P-03,Titan: Legacy Refactor,Engineering,Product-Web,High,Q1
+P-08,Accessibility (WCAG) Compliance,Product,Product-Web,Medium,Q2
+P-12,Checkout Flow Redesign,Product,Product-Web,High,Q1
+P-22,Internal Admin Dashboard v3,Engineering,Product-Web,Low,Q3
+P-04,Viral Loop: Referral Engine,Marketing,Growth,High,Q1
+P-07,Project Helios: SEO Dominance,Marketing,Growth,Medium,Q2
+P-13,A/B Testing Framework Integration,Engineering,Growth,Medium,Q1
+P-23,User Reactivation Campaign,Marketing,Growth,High,Q3
+P-05,Project Oracle: Churn Prediction,Engineering,Data-Science,High,Q2
+P-09,Warehouse ETL Automation,Engineering,Data-Science,Medium,Q1
+P-14,Real-time Personalization API,Engineering,Data-Science,Critical,Q2
+P-24,Customer Segmentation Model,Data-Science,Data-Science,Low,Q4
+P-10,Brand Refresh 2026,Marketing,Brand-Design,Critical,Q2
+P-06,Project Prism: Design System v2,Product,Brand-Design,Medium,Q1
+P-15,Podcast Series Production,Marketing,Brand-Design,Low,Q3
+P-25,Annual Impact Report,Marketing,Brand-Design,Medium,Q4
+P-16,Employee Onboarding Revamp,Operations,Infrastructure,Low,Q1
+P-17,SOC2 Compliance Readiness,Security,Infrastructure,Critical,Q2
+P-18,Global Expansion: LATAM Market,Marketing,Growth,High,Q4
+P-19,Developer Experience (DevEx) Survey,Engineering,Product-Web,Low,Q2
+P-20,Mobile App UI Audit,Product,Brand-Design,Medium,Q3

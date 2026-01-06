@@ -1,0 +1,573 @@
+story_id,task_id,user_id,text,type,created_at
+S-823807,T-15572,U-141,Moved to In Review,system,2026-01-06T08:18:16.228714+00:00
+S-725868,T-15572,U-141,Review requested,system,2026-01-06T08:18:16.228714+00:00
+C-257555,T-15572,U-139,Please check the VNet integration and private endpoint configuration carefully for any potential misconfigurations.,comment,2026-01-06T08:18:19.178415+00:00
+C-878730,T-15572,U-121,Looks good. Ready to move this forward once the network team signs off on the VNet peering.,comment,2026-01-06T08:18:24.070041+00:00
+S-903172,T-33534,U-128,Status changed to In Progress,system,2026-01-06T08:18:24.070041+00:00
+S-179122,T-33534,U-128,Assignee started work,system,2026-01-06T08:18:24.070041+00:00
+C-965868,T-33534,U-141,Integrating the new auth system into Service A. Running into some unexpected challenges with existing legacy credential storage in Service B.,comment,2026-01-06T08:18:29.612278+00:00
+C-208213,T-33534,U-118,Implementing the new token validation logic across key services. We've hit an unexpected scope mismatch when integrating with the user management microservice that requires further debugging.,comment,2026-01-06T08:18:33.319133+00:00
+S-581322,T-52764,U-112,Task created,system,2026-01-06T08:18:33.319133+00:00
+S-441298,T-52764,U-112,Added to backlog,system,2026-01-06T08:18:33.319133+00:00
+C-825031,T-52764,U-140,Can you specify which exact pyarrow issue or performance bottleneck this fix is addressing? This will help confirm scope before starting.,comment,2026-01-06T08:18:37.722142+00:00
+C-859069,T-52764,U-143,Could we get an overview of what specific customer-facing issue this pyarrow fix resolves?,comment,2026-01-06T08:18:45.930458+00:00
+S-968129,T-73630,U-112,Status changed to In Progress,system,2026-01-06T08:18:45.930458+00:00
+S-784424,T-73630,U-112,Assignee started work,system,2026-01-06T08:18:45.930458+00:00
+S-150623,T-92868,U-130,Task created,system,2026-01-06T08:18:46.246087+00:00
+S-910400,T-92868,U-130,Added to backlog,system,2026-01-06T08:18:46.247153+00:00
+S-342059,T-86096,U-123,Status changed to In Progress,system,2026-01-06T08:18:46.562557+00:00
+S-230688,T-86096,U-123,Assignee started work,system,2026-01-06T08:18:46.562557+00:00
+S-134354,T-54061,U-112,Status changed to In Progress,system,2026-01-06T08:18:46.862092+00:00
+S-738365,T-54061,U-112,Assignee started work,system,2026-01-06T08:18:46.862092+00:00
+S-540571,T-40236,U-112,Moved to In Review,system,2026-01-06T08:18:48.122244+00:00
+S-741781,T-40236,U-112,Review requested,system,2026-01-06T08:18:48.122244+00:00
+S-844472,T-24251,U-124,Status changed to In Progress,system,2026-01-06T08:18:49.057214+00:00
+S-787209,T-24251,U-124,Assignee started work,system,2026-01-06T08:18:49.057214+00:00
+S-356781,T-88617,U-130,Status changed to In Progress,system,2026-01-06T08:18:51.179457+00:00
+S-986617,T-88617,U-130,Assignee started work,system,2026-01-06T08:18:51.179457+00:00
+S-486694,T-27543,U-118,Task created,system,2026-01-06T08:18:51.814407+00:00
+S-811832,T-27543,U-118,Added to backlog,system,2026-01-06T08:18:51.814407+00:00
+S-286484,T-68994,U-112,Moved to In Review,system,2026-01-06T08:18:52.115525+00:00
+S-416379,T-68994,U-112,Review requested,system,2026-01-06T08:18:52.115525+00:00
+S-336404,T-52240,U-112,Moved to In Review,system,2026-01-06T08:18:53.338332+00:00
+S-711895,T-52240,U-112,Review requested,system,2026-01-06T08:18:53.338332+00:00
+S-385104,T-89667,U-130,Task created,system,2026-01-06T08:18:54.598786+00:00
+S-854802,T-89667,U-130,Added to backlog,system,2026-01-06T08:18:54.598786+00:00
+S-969986,T-98969,U-123,Status changed to In Progress,system,2026-01-06T08:18:55.221561+00:00
+S-762337,T-98969,U-123,Assignee started work,system,2026-01-06T08:18:55.221561+00:00
+S-250084,T-12180,U-128,Status changed to In Progress,system,2026-01-06T08:18:56.783303+00:00
+S-174342,T-12180,U-128,Assignee started work,system,2026-01-06T08:18:56.783303+00:00
+S-308776,T-48925,U-124,Task created,system,2026-01-06T08:18:56.783303+00:00
+S-397572,T-48925,U-124,Added to backlog,system,2026-01-06T08:18:56.783303+00:00
+S-827094,T-53758,U-134,Task marked as Done,system,2026-01-06T08:18:56.784276+00:00
+S-597181,T-53758,U-134,Task closed,system,2026-01-06T08:18:56.784276+00:00
+S-811733,T-83012,U-130,Status changed to In Progress,system,2026-01-06T08:18:56.784276+00:00
+S-285293,T-83012,U-130,Assignee started work,system,2026-01-06T08:18:56.784276+00:00
+S-247833,T-52657,U-141,Task created,system,2026-01-06T08:18:57.730036+00:00
+S-315407,T-52657,U-141,Added to backlog,system,2026-01-06T08:18:57.730036+00:00
+S-902530,T-94682,U-112,Moved to In Review,system,2026-01-06T08:18:58.346812+00:00
+S-486557,T-94682,U-112,Review requested,system,2026-01-06T08:18:58.347801+00:00
+S-970502,T-71863,U-130,Status changed to In Progress,system,2026-01-06T08:18:59.297019+00:00
+S-336471,T-71863,U-130,Assignee started work,system,2026-01-06T08:18:59.297019+00:00
+S-925258,T-54157,U-123,Task created,system,2026-01-06T08:19:00.840414+00:00
+S-805970,T-54157,U-123,Added to backlog,system,2026-01-06T08:19:00.840414+00:00
+S-337510,T-11110,U-124,Task created,system,2026-01-06T08:19:00.840414+00:00
+S-824426,T-11110,U-124,Added to backlog,system,2026-01-06T08:19:00.840414+00:00
+S-818186,T-18501,U-125,Task created,system,2026-01-06T08:19:01.148993+00:00
+S-542719,T-18501,U-125,Added to backlog,system,2026-01-06T08:19:01.148993+00:00
+S-473534,T-14901,U-128,Moved to In Review,system,2026-01-06T08:19:01.474667+00:00
+S-924213,T-14901,U-128,Review requested,system,2026-01-06T08:19:01.474667+00:00
+S-482846,T-35123,U-123,Task created,system,2026-01-06T08:19:01.790767+00:00
+S-138403,T-35123,U-123,Added to backlog,system,2026-01-06T08:19:01.790767+00:00
+S-380823,T-48574,U-141,Moved to In Review,system,2026-01-06T08:19:01.790767+00:00
+S-702697,T-48574,U-141,Review requested,system,2026-01-06T08:19:01.790767+00:00
+S-439342,T-51719,U-130,Task created,system,2026-01-06T08:19:02.891367+00:00
+S-432540,T-51719,U-130,Added to backlog,system,2026-01-06T08:19:02.891367+00:00
+S-873096,T-73769,U-124,Status changed to In Progress,system,2026-01-06T08:19:02.891367+00:00
+S-925143,T-73769,U-124,Assignee started work,system,2026-01-06T08:19:02.891367+00:00
+S-542856,T-58539,U-112,Status changed to In Progress,system,2026-01-06T08:19:03.840337+00:00
+S-946934,T-58539,U-112,Assignee started work,system,2026-01-06T08:19:03.840337+00:00
+S-406340,T-91034,U-134,Task created,system,2026-01-06T08:19:04.152264+00:00
+S-150759,T-91034,U-134,Added to backlog,system,2026-01-06T08:19:04.152264+00:00
+S-501581,T-41672,U-141,Status changed to In Progress,system,2026-01-06T08:19:05.385827+00:00
+S-727081,T-41672,U-141,Assignee started work,system,2026-01-06T08:19:05.385827+00:00
+S-959974,T-42464,U-141,Status changed to In Progress,system,2026-01-06T08:19:05.385827+00:00
+S-521398,T-42464,U-141,Assignee started work,system,2026-01-06T08:19:05.385827+00:00
+S-702298,T-16635,U-124,Status changed to In Progress,system,2026-01-06T08:19:06.497920+00:00
+S-183512,T-16635,U-124,Assignee started work,system,2026-01-06T08:19:06.497920+00:00
+S-398758,T-17276,U-134,Moved to In Review,system,2026-01-06T08:19:06.873043+00:00
+S-429738,T-17276,U-134,Review requested,system,2026-01-06T08:19:06.873043+00:00
+S-578944,T-24429,U-134,Status changed to In Progress,system,2026-01-06T08:19:08.015201+00:00
+S-103519,T-24429,U-134,Assignee started work,system,2026-01-06T08:19:08.015201+00:00
+S-574875,T-33302,U-141,Task created,system,2026-01-06T08:19:09.087378+00:00
+S-473664,T-33302,U-141,Added to backlog,system,2026-01-06T08:19:09.087378+00:00
+S-263383,T-19657,U-123,Moved to In Review,system,2026-01-06T08:19:09.852145+00:00
+S-935941,T-19657,U-123,Review requested,system,2026-01-06T08:19:09.852145+00:00
+S-970575,T-94398,U-134,Task created,system,2026-01-06T08:19:10.236382+00:00
+S-327857,T-94398,U-134,Added to backlog,system,2026-01-06T08:19:10.236382+00:00
+S-455095,T-54293,U-123,Moved to In Review,system,2026-01-06T08:19:10.974883+00:00
+S-103539,T-54293,U-123,Review requested,system,2026-01-06T08:19:10.974883+00:00
+S-499077,T-62815,U-135,Task marked as Done,system,2026-01-06T08:19:12.491812+00:00
+S-761207,T-62815,U-135,Task closed,system,2026-01-06T08:19:12.491812+00:00
+S-528590,T-91190,U-126,Status changed to In Progress,system,2026-01-06T08:19:12.491812+00:00
+S-439267,T-91190,U-126,Assignee started work,system,2026-01-06T08:19:12.491812+00:00
+S-662471,T-84624,U-105,Task created,system,2026-01-06T08:19:12.491812+00:00
+S-637368,T-84624,U-105,Added to backlog,system,2026-01-06T08:19:12.491812+00:00
+S-101727,T-45518,U-126,Task created,system,2026-01-06T08:19:12.871128+00:00
+S-356874,T-45518,U-126,Added to backlog,system,2026-01-06T08:19:12.871128+00:00
+S-581668,T-38923,U-103,Task marked as Done,system,2026-01-06T08:19:13.255303+00:00
+S-252884,T-38923,U-103,Task closed,system,2026-01-06T08:19:13.255303+00:00
+S-804198,T-85336,U-135,Task marked as Done,system,2026-01-06T08:19:13.909661+00:00
+S-473248,T-85336,U-135,Task closed,system,2026-01-06T08:19:13.909661+00:00
+S-850501,T-98065,U-135,Task created,system,2026-01-06T08:19:13.910663+00:00
+S-211195,T-98065,U-135,Added to backlog,system,2026-01-06T08:19:13.910663+00:00
+S-692598,T-48248,U-139,Status changed to In Progress,system,2026-01-06T08:19:14.538935+00:00
+S-910543,T-48248,U-139,Assignee started work,system,2026-01-06T08:19:14.538935+00:00
+S-731783,T-47225,U-119,Task marked as Done,system,2026-01-06T08:19:15.172280+00:00
+S-611173,T-47225,U-119,Task closed,system,2026-01-06T08:19:15.172280+00:00
+S-408302,T-94165,U-119,Task created,system,2026-01-06T08:19:16.115299+00:00
+S-718850,T-94165,U-119,Added to backlog,system,2026-01-06T08:19:16.115299+00:00
+S-740707,T-93467,U-119,Task created,system,2026-01-06T08:19:16.115299+00:00
+S-238523,T-93467,U-119,Added to backlog,system,2026-01-06T08:19:16.115299+00:00
+S-162542,T-88940,U-103,Moved to In Review,system,2026-01-06T08:19:16.826845+00:00
+S-908746,T-88940,U-103,Review requested,system,2026-01-06T08:19:16.826845+00:00
+S-881478,T-37263,U-119,Moved to In Review,system,2026-01-06T08:19:16.826845+00:00
+S-464458,T-37263,U-119,Review requested,system,2026-01-06T08:19:16.826845+00:00
+S-873760,T-36596,U-103,Task created,system,2026-01-06T08:19:17.838861+00:00
+S-812001,T-36596,U-103,Added to backlog,system,2026-01-06T08:19:17.838861+00:00
+S-545183,T-90005,U-119,Status changed to In Progress,system,2026-01-06T08:19:18.154848+00:00
+S-805927,T-90005,U-119,Assignee started work,system,2026-01-06T08:19:18.154848+00:00
+C-367173,T-90005,U-123,Implementing the A/B split logic for the drip campaign. Running into some unexpected schema discrepancies when integrating with the marketing automation platform.,comment,2026-01-06T08:19:23.437512+00:00
+C-746800,T-90005,U-135,Completed setup for Variant B in our marketing automation platform. Waiting on engineering to confirm all tracking events are firing correctly before scheduling launch.,comment,2026-01-06T08:19:29.599510+00:00
+C-974480,T-90005,U-123,"Integrating the A/B test framework with our email service. We've encountered some unexpected API rate limits during initial variant assignment, which I'm troubleshooting.",comment,2026-01-06T08:19:35.592973+00:00
+S-351594,T-53241,U-139,Status changed to In Progress,system,2026-01-06T08:19:35.593978+00:00
+S-449262,T-53241,U-139,Assignee started work,system,2026-01-06T08:19:35.593978+00:00
+C-947237,T-53003,U-113,Can you please update the targeting to include 'CTO' and 'VP of Engineering' as well?,comment,2026-01-06T08:19:39.826796+00:00
+S-183011,T-42697,U-126,Moved to In Review,system,2026-01-06T08:19:39.826796+00:00
+S-533461,T-42697,U-126,Review requested,system,2026-01-06T08:19:39.826796+00:00
+C-619552,T-42697,U-130,"The copy is much improved. For the 'Benefits' section, can we emphasize how it directly reduces operational overhead for their team?",comment,2026-01-06T08:19:46.462059+00:00
+C-504939,T-42697,U-122,"Overall, the copy is strong. I'm just checking if we're locked on the current headline length, as it impacts the hero section's visual balance.",comment,2026-01-06T08:19:52.004055+00:00
+S-140301,T-77357,U-139,Status changed to In Progress,system,2026-01-06T08:19:52.004055+00:00
+S-533842,T-77357,U-139,Assignee started work,system,2026-01-06T08:19:52.004055+00:00
+S-103775,T-54202,U-135,Task created,system,2026-01-06T08:19:53.547432+00:00
+S-400576,T-54202,U-135,Added to backlog,system,2026-01-06T08:19:53.547432+00:00
+S-327600,T-27589,U-119,Task marked as Done,system,2026-01-06T08:19:54.170754+00:00
+S-338467,T-27589,U-119,Task closed,system,2026-01-06T08:19:54.170754+00:00
+S-924402,T-65639,U-119,Status changed to In Progress,system,2026-01-06T08:19:54.170754+00:00
+S-956734,T-65639,U-119,Assignee started work,system,2026-01-06T08:19:54.170754+00:00
+S-623601,T-51640,U-135,Moved to In Review,system,2026-01-06T08:19:54.484393+00:00
+S-226282,T-51640,U-135,Review requested,system,2026-01-06T08:19:54.484393+00:00
+S-520117,T-66770,U-126,Status changed to In Progress,system,2026-01-06T08:19:55.426119+00:00
+S-514915,T-66770,U-126,Assignee started work,system,2026-01-06T08:19:55.426119+00:00
+S-910529,T-96881,U-135,Status changed to In Progress,system,2026-01-06T08:19:55.426119+00:00
+S-938650,T-96881,U-135,Assignee started work,system,2026-01-06T08:19:55.426119+00:00
+S-181169,T-72795,U-103,Status changed to In Progress,system,2026-01-06T08:19:56.470453+00:00
+S-267069,T-72795,U-103,Assignee started work,system,2026-01-06T08:19:56.470453+00:00
+S-471252,T-54626,U-135,Moved to In Review,system,2026-01-06T08:19:57.400479+00:00
+S-823917,T-54626,U-135,Review requested,system,2026-01-06T08:19:57.400479+00:00
+S-432896,T-59148,U-139,Status changed to In Progress,system,2026-01-06T08:19:58.013933+00:00
+S-886459,T-59148,U-139,Assignee started work,system,2026-01-06T08:19:58.013933+00:00
+S-563441,T-67842,U-139,Task created,system,2026-01-06T08:19:59.901234+00:00
+S-360159,T-67842,U-139,Added to backlog,system,2026-01-06T08:19:59.901234+00:00
+S-952253,T-31485,U-103,Status changed to In Progress,system,2026-01-06T08:19:59.902235+00:00
+S-173419,T-31485,U-103,Assignee started work,system,2026-01-06T08:19:59.902235+00:00
+S-485910,T-30149,U-126,Moved to In Review,system,2026-01-06T08:20:00.845171+00:00
+S-391168,T-30149,U-126,Review requested,system,2026-01-06T08:20:00.845171+00:00
+S-924232,T-31750,U-135,Status changed to In Progress,system,2026-01-06T08:20:01.769441+00:00
+S-168102,T-31750,U-135,Assignee started work,system,2026-01-06T08:20:01.769441+00:00
+S-853266,T-85105,U-135,Status changed to In Progress,system,2026-01-06T08:20:02.100015+00:00
+S-916885,T-85105,U-135,Assignee started work,system,2026-01-06T08:20:02.100015+00:00
+S-579869,T-90627,U-126,Task created,system,2026-01-06T08:20:02.100015+00:00
+S-689797,T-90627,U-126,Added to backlog,system,2026-01-06T08:20:02.100015+00:00
+S-640819,T-88465,U-139,Moved to In Review,system,2026-01-06T08:20:02.745265+00:00
+S-699510,T-88465,U-139,Review requested,system,2026-01-06T08:20:02.745265+00:00
+S-623267,T-77304,U-139,Status changed to In Progress,system,2026-01-06T08:20:03.057059+00:00
+S-793501,T-77304,U-139,Assignee started work,system,2026-01-06T08:20:03.057059+00:00
+S-861511,T-72586,U-103,Status changed to In Progress,system,2026-01-06T08:20:03.691949+00:00
+S-605512,T-72586,U-103,Assignee started work,system,2026-01-06T08:20:03.691949+00:00
+S-275619,T-33340,U-119,Task marked as Done,system,2026-01-06T08:20:04.001004+00:00
+S-273592,T-33340,U-119,Task closed,system,2026-01-06T08:20:04.001004+00:00
+S-586224,T-63678,U-126,Task created,system,2026-01-06T08:20:05.224491+00:00
+S-566088,T-63678,U-126,Added to backlog,system,2026-01-06T08:20:05.224491+00:00
+S-823864,T-84847,U-103,Status changed to In Progress,system,2026-01-06T08:20:05.864787+00:00
+S-326118,T-84847,U-103,Assignee started work,system,2026-01-06T08:20:05.864787+00:00
+S-637824,T-22106,U-119,Task created,system,2026-01-06T08:20:06.787763+00:00
+S-522915,T-22106,U-119,Added to backlog,system,2026-01-06T08:20:06.787763+00:00
+S-522373,T-91315,U-119,Status changed to In Progress,system,2026-01-06T08:20:07.819480+00:00
+S-636239,T-91315,U-119,Assignee started work,system,2026-01-06T08:20:07.819480+00:00
+S-577251,T-38227,U-126,Task created,system,2026-01-06T08:20:08.767289+00:00
+S-514384,T-38227,U-126,Added to backlog,system,2026-01-06T08:20:08.767289+00:00
+S-362463,T-37399,U-139,Task created,system,2026-01-06T08:20:09.375060+00:00
+S-153272,T-37399,U-139,Added to backlog,system,2026-01-06T08:20:09.375060+00:00
+S-731657,T-86983,U-105,Moved to In Review,system,2026-01-06T08:20:09.991565+00:00
+S-553628,T-86983,U-105,Review requested,system,2026-01-06T08:20:09.991565+00:00
+S-730642,T-80610,U-150,Status changed to In Progress,system,2026-01-06T08:20:11.975765+00:00
+S-329737,T-80610,U-150,Assignee started work,system,2026-01-06T08:20:11.975765+00:00
+S-713479,T-46889,U-115,Status changed to In Progress,system,2026-01-06T08:20:14.223401+00:00
+S-568177,T-46889,U-115,Assignee started work,system,2026-01-06T08:20:14.223401+00:00
+S-528689,T-33844,U-115,Task created,system,2026-01-06T08:20:14.605017+00:00
+S-811814,T-33844,U-115,Added to backlog,system,2026-01-06T08:20:14.605017+00:00
+S-765632,T-20293,U-117,Task created,system,2026-01-06T08:20:16.485365+00:00
+S-709536,T-20293,U-117,Added to backlog,system,2026-01-06T08:20:16.485365+00:00
+C-294226,T-20293,U-115,"Do we have the final webinar title, speakers, and key takeaways ready for the email copy?",comment,2026-01-06T08:20:20.089481+00:00
+C-190970,T-20293,U-110,"Could you provide the webinar title, date, and target audience details?",comment,2026-01-06T08:20:24.699461+00:00
+S-419443,T-12456,U-137,Status changed to In Progress,system,2026-01-06T08:20:24.699461+00:00
+S-896972,T-12456,U-137,Assignee started work,system,2026-01-06T08:20:24.699461+00:00
+C-811109,T-12456,U-110,"Drafting the main body and applying the new brand voice. I'm making good progress, but I might need to clarify some specific phrasing for our product updates next week.",comment,2026-01-06T08:20:30.332743+00:00
+C-912631,T-12456,U-137,Working on incorporating the new brand voice into our Q3 performance summary. Need to confirm specific phrasing for client-facing data points with the Brand team to ensure alignment.,comment,2026-01-06T08:20:36.763386+00:00
+C-686044,T-12456,U-107,"Working on the first draft now. Finding it a bit tricky to apply the new brand voice consistently, especially for the product update sections.",comment,2026-01-06T08:20:40.281185+00:00
+C-948304,T-57177,U-113,Who is the target audience for this campaign? Let's confirm segment criteria to ensure we're targeting effectively.,comment,2026-01-06T08:20:43.888922+00:00
+S-153475,T-73171,U-117,Moved to In Review,system,2026-01-06T08:20:44.541089+00:00
+S-357476,T-73171,U-117,Review requested,system,2026-01-06T08:20:44.541089+00:00
+S-859846,T-86157,U-137,Task created,system,2026-01-06T08:20:45.574160+00:00
+S-672867,T-86157,U-137,Added to backlog,system,2026-01-06T08:20:45.574160+00:00
+S-436638,T-53062,U-150,Task created,system,2026-01-06T08:20:45.961082+00:00
+S-751822,T-53062,U-150,Added to backlog,system,2026-01-06T08:20:45.961082+00:00
+S-516617,T-42059,U-115,Task marked as Done,system,2026-01-06T08:20:46.693381+00:00
+S-831102,T-42059,U-115,Task closed,system,2026-01-06T08:20:46.693381+00:00
+S-633096,T-87893,U-117,Task created,system,2026-01-06T08:20:46.693381+00:00
+S-637259,T-87893,U-117,Added to backlog,system,2026-01-06T08:20:46.693381+00:00
+S-352626,T-29619,U-115,Task marked as Done,system,2026-01-06T08:20:47.785400+00:00
+S-839353,T-29619,U-115,Task closed,system,2026-01-06T08:20:47.785400+00:00
+S-689718,T-27923,U-115,Status changed to In Progress,system,2026-01-06T08:20:48.925045+00:00
+S-161135,T-27923,U-115,Assignee started work,system,2026-01-06T08:20:48.925045+00:00
+S-327868,T-31629,U-115,Status changed to In Progress,system,2026-01-06T08:20:49.667982+00:00
+S-509039,T-31629,U-115,Assignee started work,system,2026-01-06T08:20:49.667982+00:00
+S-682450,T-42112,U-115,Moved to In Review,system,2026-01-06T08:20:50.829987+00:00
+S-416682,T-42112,U-115,Review requested,system,2026-01-06T08:20:50.830965+00:00
+S-154507,T-12529,U-115,Task created,system,2026-01-06T08:20:51.954903+00:00
+S-882248,T-12529,U-115,Added to backlog,system,2026-01-06T08:20:51.955441+00:00
+S-792167,T-70613,U-137,Task created,system,2026-01-06T08:20:51.955441+00:00
+S-743500,T-70613,U-137,Added to backlog,system,2026-01-06T08:20:51.955441+00:00
+S-854945,T-86757,U-115,Task created,system,2026-01-06T08:20:52.332533+00:00
+S-252261,T-86757,U-115,Added to backlog,system,2026-01-06T08:20:52.332533+00:00
+S-792700,T-60985,U-137,Task marked as Done,system,2026-01-06T08:20:52.707857+00:00
+S-845151,T-60985,U-137,Task closed,system,2026-01-06T08:20:52.707857+00:00
+S-655385,T-89809,U-120,Task created,system,2026-01-06T08:20:56.122597+00:00
+S-965759,T-89809,U-120,Added to backlog,system,2026-01-06T08:20:56.122597+00:00
+S-490345,T-76789,U-115,Task created,system,2026-01-06T08:20:57.657313+00:00
+S-409844,T-76789,U-115,Added to backlog,system,2026-01-06T08:20:57.657313+00:00
+S-238362,T-53721,U-120,Moved to In Review,system,2026-01-06T08:20:58.614732+00:00
+S-216778,T-53721,U-120,Review requested,system,2026-01-06T08:20:58.614732+00:00
+S-419201,T-31368,U-115,Task marked as Done,system,2026-01-06T08:20:58.910420+00:00
+S-208954,T-31368,U-115,Task closed,system,2026-01-06T08:20:58.910420+00:00
+S-350115,T-10944,U-115,Task created,system,2026-01-06T08:20:59.625438+00:00
+S-136643,T-10944,U-115,Added to backlog,system,2026-01-06T08:20:59.625438+00:00
+S-650726,T-93412,U-150,Task created,system,2026-01-06T08:21:00.222965+00:00
+S-466620,T-93412,U-150,Added to backlog,system,2026-01-06T08:21:00.222965+00:00
+S-459622,T-22337,U-115,Task marked as Done,system,2026-01-06T08:21:01.175123+00:00
+S-511278,T-22337,U-115,Task closed,system,2026-01-06T08:21:01.175123+00:00
+S-346771,T-12606,U-137,Status changed to In Progress,system,2026-01-06T08:21:01.175123+00:00
+S-875481,T-12606,U-137,Assignee started work,system,2026-01-06T08:21:01.175123+00:00
+S-791154,T-84953,U-115,Status changed to In Progress,system,2026-01-06T08:21:01.175123+00:00
+S-535674,T-84953,U-115,Assignee started work,system,2026-01-06T08:21:01.175123+00:00
+S-231905,T-40115,U-137,Moved to In Review,system,2026-01-06T08:21:01.798088+00:00
+S-573433,T-40115,U-137,Review requested,system,2026-01-06T08:21:01.798088+00:00
+S-380757,T-28580,U-137,Task marked as Done,system,2026-01-06T08:21:02.118906+00:00
+S-570663,T-28580,U-137,Task closed,system,2026-01-06T08:21:02.118906+00:00
+S-250055,T-62505,U-115,Task created,system,2026-01-06T08:21:02.744259+00:00
+S-209526,T-62505,U-115,Added to backlog,system,2026-01-06T08:21:02.744259+00:00
+S-256021,T-96269,U-117,Moved to In Review,system,2026-01-06T08:21:02.744259+00:00
+S-230441,T-96269,U-117,Review requested,system,2026-01-06T08:21:02.744259+00:00
+S-743935,T-59795,U-120,Moved to In Review,system,2026-01-06T08:21:02.744259+00:00
+S-875655,T-59795,U-120,Review requested,system,2026-01-06T08:21:02.744259+00:00
+S-834757,T-70385,U-115,Task created,system,2026-01-06T08:21:03.395241+00:00
+S-417751,T-70385,U-115,Added to backlog,system,2026-01-06T08:21:03.395241+00:00
+S-327808,T-62170,U-137,Status changed to In Progress,system,2026-01-06T08:21:03.395241+00:00
+S-985847,T-62170,U-137,Assignee started work,system,2026-01-06T08:21:03.395241+00:00
+S-507804,T-82603,U-109,Moved to In Review,system,2026-01-06T08:21:03.713276+00:00
+S-493941,T-82603,U-109,Review requested,system,2026-01-06T08:21:03.713276+00:00
+S-303048,T-53068,U-137,Task marked as Done,system,2026-01-06T08:21:04.183130+00:00
+S-522076,T-53068,U-137,Task closed,system,2026-01-06T08:21:04.183130+00:00
+S-804805,T-11434,U-115,Task marked as Done,system,2026-01-06T08:21:05.725133+00:00
+S-815043,T-11434,U-115,Task closed,system,2026-01-06T08:21:05.725133+00:00
+S-977938,T-70996,U-115,Moved to In Review,system,2026-01-06T08:21:06.606661+00:00
+S-168697,T-70996,U-115,Review requested,system,2026-01-06T08:21:06.606661+00:00
+S-297161,T-97934,U-115,Task marked as Done,system,2026-01-06T08:21:07.507008+00:00
+S-693499,T-97934,U-115,Task closed,system,2026-01-06T08:21:07.507008+00:00
+S-760432,T-83132,U-115,Task marked as Done,system,2026-01-06T08:21:08.807551+00:00
+S-100098,T-83132,U-115,Task closed,system,2026-01-06T08:21:08.807551+00:00
+S-573684,T-95030,U-117,Moved to In Review,system,2026-01-06T08:21:10.498162+00:00
+S-121644,T-95030,U-117,Review requested,system,2026-01-06T08:21:10.498162+00:00
+S-126025,T-59953,U-115,Task created,system,2026-01-06T08:21:10.498162+00:00
+S-947416,T-59953,U-115,Added to backlog,system,2026-01-06T08:21:10.498162+00:00
+S-411028,T-92996,U-115,Task created,system,2026-01-06T08:21:12.595103+00:00
+S-845466,T-92996,U-115,Added to backlog,system,2026-01-06T08:21:12.595103+00:00
+S-119385,T-71039,U-137,Status changed to In Progress,system,2026-01-06T08:41:11.595371+00:00
+S-932268,T-71039,U-137,Assignee started work,system,2026-01-06T08:41:11.595371+00:00
+S-530059,T-74504,U-109,Status changed to In Progress,system,2026-01-06T08:41:11.661370+00:00
+S-414150,T-74504,U-109,Assignee started work,system,2026-01-06T08:41:11.661370+00:00
+S-987895,T-20162,U-115,Task created,system,2026-01-06T08:41:11.662379+00:00
+S-814631,T-20162,U-115,Added to backlog,system,2026-01-06T08:41:11.662379+00:00
+S-181262,T-93642,U-149,Task created,system,2026-01-06T08:41:11.848187+00:00
+S-345335,T-93642,U-149,Added to backlog,system,2026-01-06T08:41:11.848187+00:00
+S-503558,T-36553,U-102,Moved to In Review,system,2026-01-06T08:41:11.868848+00:00
+S-957197,T-36553,U-102,Review requested,system,2026-01-06T08:41:11.869846+00:00
+S-926062,T-77754,U-107,Moved to In Review,system,2026-01-06T08:41:11.872843+00:00
+S-307572,T-77754,U-107,Review requested,system,2026-01-06T08:41:11.872843+00:00
+S-455529,T-47696,U-121,Task created,system,2026-01-06T08:41:11.892408+00:00
+S-787096,T-47696,U-121,Added to backlog,system,2026-01-06T08:41:11.892408+00:00
+S-200815,T-82310,U-149,Task created,system,2026-01-06T08:41:11.895406+00:00
+S-833037,T-82310,U-149,Added to backlog,system,2026-01-06T08:41:11.895406+00:00
+S-358975,T-55689,U-147,Task created,system,2026-01-06T08:41:11.911406+00:00
+S-709516,T-55689,U-147,Added to backlog,system,2026-01-06T08:41:11.911406+00:00
+S-138500,T-12677,U-102,Status changed to In Progress,system,2026-01-06T08:41:11.918412+00:00
+S-143735,T-12677,U-102,Assignee started work,system,2026-01-06T08:41:11.918412+00:00
+S-771469,T-92348,U-121,Task created,system,2026-01-06T08:41:11.927407+00:00
+S-494878,T-92348,U-121,Added to backlog,system,2026-01-06T08:41:11.927407+00:00
+S-518021,T-70277,U-140,Task created,system,2026-01-06T08:41:11.934406+00:00
+S-505199,T-70277,U-140,Added to backlog,system,2026-01-06T08:41:11.934406+00:00
+S-654333,T-50815,U-106,Task created,system,2026-01-06T08:41:11.938408+00:00
+S-656862,T-50815,U-106,Added to backlog,system,2026-01-06T08:41:11.938408+00:00
+S-427341,T-93332,U-147,Task created,system,2026-01-06T08:41:11.944409+00:00
+S-952352,T-93332,U-147,Added to backlog,system,2026-01-06T08:41:11.944409+00:00
+S-390126,T-13195,U-127,Task created,system,2026-01-06T08:41:11.954410+00:00
+S-129991,T-13195,U-127,Added to backlog,system,2026-01-06T08:41:11.954410+00:00
+S-233424,T-30124,U-148,Status changed to In Progress,system,2026-01-06T08:41:11.955411+00:00
+S-829132,T-30124,U-148,Assignee started work,system,2026-01-06T08:41:11.955411+00:00
+S-227864,T-56235,U-138,Task created,system,2026-01-06T08:41:11.966421+00:00
+S-415359,T-56235,U-138,Added to backlog,system,2026-01-06T08:41:11.967423+00:00
+S-347862,T-57485,U-107,Status changed to In Progress,system,2026-01-06T08:41:11.976941+00:00
+S-551678,T-57485,U-107,Assignee started work,system,2026-01-06T08:41:11.976941+00:00
+S-854340,T-77878,U-140,Task created,system,2026-01-06T08:41:11.981488+00:00
+S-576828,T-77878,U-140,Added to backlog,system,2026-01-06T08:41:11.981488+00:00
+S-126466,T-76517,U-142,Task created,system,2026-01-06T08:41:12.215961+00:00
+S-350666,T-76517,U-142,Added to backlog,system,2026-01-06T08:41:12.215961+00:00
+S-544933,T-51544,U-108,Task created,system,2026-01-06T08:41:12.224598+00:00
+S-468473,T-51544,U-108,Added to backlog,system,2026-01-06T08:41:12.224598+00:00
+S-526105,T-39452,U-142,Task created,system,2026-01-06T08:41:12.229278+00:00
+S-291203,T-39452,U-142,Added to backlog,system,2026-01-06T08:41:12.229278+00:00
+S-204243,T-79738,U-140,Moved to In Review,system,2026-01-06T08:41:12.236290+00:00
+S-755298,T-79738,U-140,Review requested,system,2026-01-06T08:41:12.236290+00:00
+S-798856,T-26029,U-142,Status changed to In Progress,system,2026-01-06T08:41:12.250298+00:00
+S-174482,T-26029,U-142,Assignee started work,system,2026-01-06T08:41:12.250298+00:00
+S-298368,T-35985,U-133,Status changed to In Progress,system,2026-01-06T08:41:12.250298+00:00
+S-747519,T-35985,U-133,Assignee started work,system,2026-01-06T08:41:12.250298+00:00
+S-733014,T-77141,U-149,Moved to In Review,system,2026-01-06T08:41:12.259822+00:00
+S-193718,T-77141,U-149,Review requested,system,2026-01-06T08:41:12.259822+00:00
+S-267291,T-93576,U-136,Task created,system,2026-01-06T08:41:12.259822+00:00
+S-479341,T-93576,U-136,Added to backlog,system,2026-01-06T08:41:12.259822+00:00
+S-913008,T-36376,U-142,Task created,system,2026-01-06T08:41:12.268836+00:00
+S-417209,T-36376,U-142,Added to backlog,system,2026-01-06T08:41:12.268836+00:00
+S-274542,T-45324,U-102,Task created,system,2026-01-06T08:41:12.270837+00:00
+S-536494,T-45324,U-102,Added to backlog,system,2026-01-06T08:41:12.270837+00:00
+S-199939,T-46342,U-138,Status changed to In Progress,system,2026-01-06T08:41:12.272835+00:00
+S-211221,T-46342,U-138,Assignee started work,system,2026-01-06T08:41:12.272835+00:00
+S-165708,T-40918,U-102,Task created,system,2026-01-06T08:41:12.276839+00:00
+S-824659,T-40918,U-102,Added to backlog,system,2026-01-06T08:41:12.276839+00:00
+S-785281,T-13453,U-140,Status changed to In Progress,system,2026-01-06T08:41:12.290365+00:00
+S-150614,T-13453,U-140,Assignee started work,system,2026-01-06T08:41:12.290365+00:00
+S-249479,T-30642,U-149,Status changed to In Progress,system,2026-01-06T08:41:12.296365+00:00
+S-577629,T-30642,U-149,Assignee started work,system,2026-01-06T08:41:12.297363+00:00
+S-703964,T-85906,U-147,Task created,system,2026-01-06T08:41:12.302365+00:00
+S-160682,T-85906,U-147,Added to backlog,system,2026-01-06T08:41:12.302365+00:00
+S-785304,T-50250,U-149,Task created,system,2026-01-06T08:41:12.310364+00:00
+S-239752,T-50250,U-149,Added to backlog,system,2026-01-06T08:41:12.310364+00:00
+S-308869,T-19487,U-140,Task created,system,2026-01-06T08:41:12.310364+00:00
+S-985273,T-19487,U-140,Added to backlog,system,2026-01-06T08:41:12.310364+00:00
+S-971007,T-74689,U-147,Status changed to In Progress,system,2026-01-06T08:41:12.310364+00:00
+S-832399,T-74689,U-147,Assignee started work,system,2026-01-06T08:41:12.310364+00:00
+S-267413,T-66142,U-140,Status changed to In Progress,system,2026-01-06T08:41:12.314362+00:00
+S-241690,T-66142,U-140,Assignee started work,system,2026-01-06T08:41:12.314362+00:00
+S-462696,T-34520,U-148,Moved to In Review,system,2026-01-06T08:41:12.317370+00:00
+S-185598,T-34520,U-148,Review requested,system,2026-01-06T08:41:12.317370+00:00
+S-528890,T-57608,U-142,Status changed to In Progress,system,2026-01-06T08:41:12.321364+00:00
+S-603138,T-57608,U-142,Assignee started work,system,2026-01-06T08:41:12.321364+00:00
+S-867689,T-29729,U-106,Task created,system,2026-01-06T08:41:12.324364+00:00
+S-993604,T-29729,U-106,Added to backlog,system,2026-01-06T08:41:12.324364+00:00
+S-715314,T-58017,U-107,Task created,system,2026-01-06T08:41:12.329365+00:00
+S-968933,T-58017,U-107,Added to backlog,system,2026-01-06T08:41:12.329365+00:00
+S-435725,T-32798,U-136,Task created,system,2026-01-06T08:41:12.334363+00:00
+S-323860,T-32798,U-136,Added to backlog,system,2026-01-06T08:41:12.334363+00:00
+S-604235,T-35926,U-102,Moved to In Review,system,2026-01-06T08:41:12.337363+00:00
+S-621179,T-35926,U-102,Review requested,system,2026-01-06T08:41:12.337363+00:00
+S-463659,T-86380,U-107,Moved to In Review,system,2026-01-06T08:41:12.343278+00:00
+S-852494,T-86380,U-107,Review requested,system,2026-01-06T08:41:12.343278+00:00
+S-709076,T-82360,U-140,Status changed to In Progress,system,2026-01-06T08:41:12.343278+00:00
+S-295680,T-82360,U-140,Assignee started work,system,2026-01-06T08:41:12.343278+00:00
+S-346653,T-62847,U-133,Task created,system,2026-01-06T08:41:12.344817+00:00
+S-814034,T-62847,U-133,Added to backlog,system,2026-01-06T08:41:12.344817+00:00
+S-154419,T-79338,U-136,Task created,system,2026-01-06T08:41:12.352057+00:00
+S-247574,T-79338,U-136,Added to backlog,system,2026-01-06T08:41:12.352057+00:00
+S-761054,T-81035,U-142,Task marked as Done,system,2026-01-06T08:41:12.354059+00:00
+S-893477,T-81035,U-142,Task closed,system,2026-01-06T08:41:12.354059+00:00
+S-110487,T-56061,U-132,Moved to In Review,system,2026-01-06T08:41:12.357057+00:00
+S-887464,T-56061,U-132,Review requested,system,2026-01-06T08:41:12.357057+00:00
+S-911792,T-21459,U-129,Task created,system,2026-01-06T08:41:12.362058+00:00
+S-854208,T-21459,U-129,Added to backlog,system,2026-01-06T08:41:12.362058+00:00
+S-529734,T-73838,U-111,Status changed to In Progress,system,2026-01-06T08:41:12.365057+00:00
+S-570237,T-73838,U-111,Assignee started work,system,2026-01-06T08:41:12.365057+00:00
+S-860791,T-86253,U-143,Moved to In Review,system,2026-01-06T08:41:12.371070+00:00
+S-539366,T-86253,U-143,Review requested,system,2026-01-06T08:41:12.371070+00:00
+S-462415,T-96931,U-143,Task marked as Done,system,2026-01-06T08:41:12.383598+00:00
+S-482457,T-96931,U-143,Task closed,system,2026-01-06T08:41:12.383598+00:00
+S-544303,T-98214,U-104,Status changed to In Progress,system,2026-01-06T08:41:12.391601+00:00
+S-778001,T-98214,U-104,Assignee started work,system,2026-01-06T08:41:12.391601+00:00
+S-225864,T-34194,U-131,Status changed to In Progress,system,2026-01-06T08:41:12.395598+00:00
+S-165050,T-34194,U-131,Assignee started work,system,2026-01-06T08:41:12.395598+00:00
+S-729697,T-26957,U-114,Task created,system,2026-01-06T08:41:12.395598+00:00
+S-954621,T-26957,U-114,Added to backlog,system,2026-01-06T08:41:12.395598+00:00
+S-328355,T-35500,U-110,Status changed to In Progress,system,2026-01-06T08:41:12.395598+00:00
+S-462137,T-35500,U-110,Assignee started work,system,2026-01-06T08:41:12.395598+00:00
+S-610505,T-17063,U-114,Task created,system,2026-01-06T08:41:12.395598+00:00
+S-259900,T-17063,U-114,Added to backlog,system,2026-01-06T08:41:12.396598+00:00
+S-716036,T-22691,U-132,Moved to In Review,system,2026-01-06T08:41:12.396598+00:00
+S-783346,T-22691,U-132,Review requested,system,2026-01-06T08:41:12.396598+00:00
+S-254197,T-71027,U-145,Task created,system,2026-01-06T08:41:12.398600+00:00
+S-250728,T-71027,U-145,Added to backlog,system,2026-01-06T08:41:12.399598+00:00
+S-451442,T-46811,U-110,Status changed to In Progress,system,2026-01-06T08:41:12.404595+00:00
+S-347328,T-46811,U-110,Assignee started work,system,2026-01-06T08:41:12.404595+00:00
+S-823245,T-65157,U-146,Status changed to In Progress,system,2026-01-06T08:41:12.410595+00:00
+S-439450,T-65157,U-146,Assignee started work,system,2026-01-06T08:41:12.410595+00:00
+S-585706,T-84082,U-146,Status changed to In Progress,system,2026-01-06T08:41:12.416595+00:00
+S-527767,T-84082,U-146,Assignee started work,system,2026-01-06T08:41:12.416595+00:00
+S-505504,T-11630,U-146,Status changed to In Progress,system,2026-01-06T08:41:12.420598+00:00
+S-711517,T-11630,U-146,Assignee started work,system,2026-01-06T08:41:12.420598+00:00
+S-733523,T-42471,U-129,Status changed to In Progress,system,2026-01-06T08:41:12.420598+00:00
+S-193530,T-42471,U-129,Assignee started work,system,2026-01-06T08:41:12.420598+00:00
+S-304175,T-69516,U-111,Moved to In Review,system,2026-01-06T08:41:12.427597+00:00
+S-731593,T-69516,U-111,Review requested,system,2026-01-06T08:41:12.427597+00:00
+S-529708,T-31994,U-122,Task created,system,2026-01-06T08:41:12.427597+00:00
+S-899519,T-31994,U-122,Added to backlog,system,2026-01-06T08:41:12.427597+00:00
+S-841135,T-16792,U-122,Task created,system,2026-01-06T08:41:12.435599+00:00
+S-423152,T-16792,U-122,Added to backlog,system,2026-01-06T08:41:12.436598+00:00
+S-827387,T-73074,U-131,Status changed to In Progress,system,2026-01-06T08:41:12.436598+00:00
+S-197649,T-73074,U-131,Assignee started work,system,2026-01-06T08:41:12.436598+00:00
+S-393590,T-83050,U-131,Task marked as Done,system,2026-01-06T08:41:12.439600+00:00
+S-829658,T-83050,U-131,Task closed,system,2026-01-06T08:41:12.439600+00:00
+S-199096,T-41287,U-111,Task created,system,2026-01-06T08:41:12.443598+00:00
+S-373907,T-41287,U-111,Added to backlog,system,2026-01-06T08:41:12.443598+00:00
+S-268699,T-33587,U-129,Status changed to In Progress,system,2026-01-06T08:41:12.449596+00:00
+S-162438,T-33587,U-129,Assignee started work,system,2026-01-06T08:41:12.449596+00:00
+S-401348,T-20187,U-144,Task created,system,2026-01-06T08:41:12.449596+00:00
+S-262060,T-20187,U-144,Added to backlog,system,2026-01-06T08:41:12.449596+00:00
+S-763546,T-74480,U-132,Task marked as Done,system,2026-01-06T08:41:12.465615+00:00
+S-878851,T-74480,U-132,Task closed,system,2026-01-06T08:41:12.465615+00:00
+S-495818,T-95013,U-111,Status changed to In Progress,system,2026-01-06T08:41:12.465615+00:00
+S-753704,T-95013,U-111,Assignee started work,system,2026-01-06T08:41:12.465615+00:00
+S-924569,T-38870,U-146,Status changed to In Progress,system,2026-01-06T08:41:12.471616+00:00
+S-713000,T-38870,U-146,Assignee started work,system,2026-01-06T08:41:12.471616+00:00
+S-148685,T-21639,U-129,Task created,system,2026-01-06T08:41:12.481145+00:00
+S-775707,T-21639,U-129,Added to backlog,system,2026-01-06T08:41:12.481145+00:00
+S-474626,T-18838,U-143,Task created,system,2026-01-06T08:41:12.486501+00:00
+S-984678,T-18838,U-143,Added to backlog,system,2026-01-06T08:41:12.486501+00:00
+S-442076,T-13419,U-132,Moved to In Review,system,2026-01-06T08:41:12.486501+00:00
+S-617489,T-13419,U-132,Review requested,system,2026-01-06T08:41:12.486501+00:00
+S-273919,T-69139,U-145,Moved to In Review,system,2026-01-06T08:41:12.489610+00:00
+S-726008,T-69139,U-145,Review requested,system,2026-01-06T08:41:12.489610+00:00
+S-260653,T-15504,U-104,Task marked as Done,system,2026-01-06T08:41:12.489610+00:00
+S-112606,T-15504,U-104,Task closed,system,2026-01-06T08:41:12.489610+00:00
+S-708664,T-70564,U-110,Moved to In Review,system,2026-01-06T08:41:12.492187+00:00
+S-571269,T-70564,U-110,Review requested,system,2026-01-06T08:41:12.492187+00:00
+S-808150,T-46265,U-101,Task marked as Done,system,2026-01-06T08:41:12.497460+00:00
+S-788451,T-46265,U-101,Task closed,system,2026-01-06T08:41:12.497460+00:00
+S-383690,T-34911,U-131,Task marked as Done,system,2026-01-06T08:41:12.508984+00:00
+S-577570,T-34911,U-131,Task closed,system,2026-01-06T08:41:12.508984+00:00
+S-415224,T-28824,U-114,Status changed to In Progress,system,2026-01-06T08:41:12.508984+00:00
+S-942704,T-28824,U-114,Assignee started work,system,2026-01-06T08:41:12.508984+00:00
+S-714466,T-30708,U-131,Status changed to In Progress,system,2026-01-06T08:41:12.510988+00:00
+S-985362,T-30708,U-131,Assignee started work,system,2026-01-06T08:41:12.510988+00:00
+S-678310,T-26648,U-146,Task marked as Done,system,2026-01-06T08:41:12.518984+00:00
+S-824754,T-26648,U-146,Task closed,system,2026-01-06T08:41:12.518984+00:00
+S-289784,T-16426,U-146,Status changed to In Progress,system,2026-01-06T08:41:12.521998+00:00
+S-785623,T-16426,U-146,Assignee started work,system,2026-01-06T08:41:12.521998+00:00
+S-540151,T-33587,U-111,Status changed to In Progress,system,2026-01-06T08:41:12.531524+00:00
+S-649090,T-33587,U-111,Assignee started work,system,2026-01-06T08:41:12.531524+00:00
+S-863139,T-92074,U-111,Status changed to In Progress,system,2026-01-06T08:41:12.535526+00:00
+S-433619,T-92074,U-111,Assignee started work,system,2026-01-06T08:41:12.535526+00:00
+S-860879,T-23446,U-101,Status changed to In Progress,system,2026-01-06T08:41:12.544045+00:00
+S-691030,T-23446,U-101,Assignee started work,system,2026-01-06T08:41:12.544045+00:00
+S-865203,T-14910,U-144,Task created,system,2026-01-06T08:41:12.548049+00:00
+S-809146,T-14910,U-144,Added to backlog,system,2026-01-06T08:41:12.548049+00:00
+S-823183,T-63533,U-112,Task created,system,2026-01-06T08:41:12.550049+00:00
+S-334680,T-63533,U-112,Added to backlog,system,2026-01-06T08:41:12.550049+00:00
+S-828329,T-81183,U-123,Moved to In Review,system,2026-01-06T08:41:12.554046+00:00
+S-576001,T-81183,U-123,Review requested,system,2026-01-06T08:41:12.554046+00:00
+S-453701,T-44980,U-141,Status changed to In Progress,system,2026-01-06T08:41:12.556043+00:00
+S-416104,T-44980,U-141,Assignee started work,system,2026-01-06T08:41:12.556043+00:00
+S-228822,T-34269,U-112,Task created,system,2026-01-06T08:41:12.557048+00:00
+S-330630,T-34269,U-112,Added to backlog,system,2026-01-06T08:41:12.557048+00:00
+S-844255,T-65092,U-124,Task created,system,2026-01-06T08:41:12.561048+00:00
+S-710363,T-65092,U-124,Added to backlog,system,2026-01-06T08:41:12.561048+00:00
+S-577200,T-60996,U-128,Task created,system,2026-01-06T08:41:12.563045+00:00
+S-268286,T-60996,U-128,Added to backlog,system,2026-01-06T08:41:12.563045+00:00
+S-528716,T-59359,U-130,Task marked as Done,system,2026-01-06T08:41:12.566062+00:00
+S-665131,T-59359,U-130,Task closed,system,2026-01-06T08:41:12.566062+00:00
+S-192668,T-33247,U-112,Task marked as Done,system,2026-01-06T08:41:12.571571+00:00
+S-482255,T-33247,U-112,Task closed,system,2026-01-06T08:41:12.571571+00:00
+S-219352,T-52366,U-141,Status changed to In Progress,system,2026-01-06T08:41:12.578933+00:00
+S-858079,T-52366,U-141,Assignee started work,system,2026-01-06T08:41:12.578933+00:00
+S-111694,T-14180,U-134,Status changed to In Progress,system,2026-01-06T08:41:12.578933+00:00
+S-441934,T-14180,U-134,Assignee started work,system,2026-01-06T08:41:12.578933+00:00
+S-189912,T-32246,U-134,Task created,system,2026-01-06T08:41:12.587453+00:00
+S-875833,T-32246,U-134,Added to backlog,system,2026-01-06T08:41:12.587453+00:00
+S-749697,T-29013,U-112,Task created,system,2026-01-06T08:41:12.587453+00:00
+S-802651,T-29013,U-112,Added to backlog,system,2026-01-06T08:41:12.587453+00:00
+S-589316,T-91447,U-134,Status changed to In Progress,system,2026-01-06T08:41:12.589461+00:00
+S-393255,T-91447,U-134,Assignee started work,system,2026-01-06T08:41:12.589461+00:00
+S-757958,T-73190,U-128,Moved to In Review,system,2026-01-06T08:41:12.593455+00:00
+S-211626,T-73190,U-128,Review requested,system,2026-01-06T08:41:12.593455+00:00
+S-160828,T-58571,U-112,Status changed to In Progress,system,2026-01-06T08:41:12.596973+00:00
+S-399311,T-58571,U-112,Assignee started work,system,2026-01-06T08:41:12.596973+00:00
+S-357786,T-29602,U-134,Task created,system,2026-01-06T08:41:12.601970+00:00
+S-145515,T-29602,U-134,Added to backlog,system,2026-01-06T08:41:12.601970+00:00
+S-357454,T-21285,U-124,Moved to In Review,system,2026-01-06T08:41:12.603971+00:00
+S-992210,T-21285,U-124,Review requested,system,2026-01-06T08:41:12.603971+00:00
+S-433179,T-12197,U-128,Status changed to In Progress,system,2026-01-06T08:41:12.603971+00:00
+S-821151,T-12197,U-128,Assignee started work,system,2026-01-06T08:41:12.603971+00:00
+S-407442,T-93217,U-112,Task created,system,2026-01-06T08:41:12.610491+00:00
+S-556105,T-93217,U-112,Added to backlog,system,2026-01-06T08:41:12.610491+00:00
+S-249863,T-80643,U-125,Moved to In Review,system,2026-01-06T08:41:12.610491+00:00
+S-445305,T-80643,U-125,Review requested,system,2026-01-06T08:41:12.610491+00:00
+S-769386,T-14063,U-130,Moved to In Review,system,2026-01-06T08:41:12.615492+00:00
+S-737601,T-14063,U-130,Review requested,system,2026-01-06T08:41:12.615492+00:00
+S-955006,T-64793,U-112,Moved to In Review,system,2026-01-06T08:41:12.615492+00:00
+S-900712,T-64793,U-112,Review requested,system,2026-01-06T08:41:12.615492+00:00
+S-354550,T-66940,U-137,Task created,system,2026-01-06T08:41:12.620496+00:00
+S-720513,T-66940,U-137,Added to backlog,system,2026-01-06T08:41:12.620496+00:00
+S-972940,T-39937,U-117,Task marked as Done,system,2026-01-06T08:41:12.624494+00:00
+S-349199,T-39937,U-117,Task closed,system,2026-01-06T08:41:12.624494+00:00
+S-421748,T-54108,U-109,Status changed to In Progress,system,2026-01-06T08:41:12.628494+00:00
+S-909236,T-54108,U-109,Assignee started work,system,2026-01-06T08:41:12.628494+00:00
+S-634518,T-52345,U-115,Task created,system,2026-01-06T08:41:12.631495+00:00
+S-673904,T-52345,U-115,Added to backlog,system,2026-01-06T08:41:12.631495+00:00
+S-864783,T-50983,U-117,Task created,system,2026-01-06T08:41:12.631495+00:00
+S-375442,T-50983,U-117,Added to backlog,system,2026-01-06T08:41:12.631495+00:00
+S-430572,T-19053,U-109,Task created,system,2026-01-06T08:41:12.637495+00:00
+S-382712,T-19053,U-109,Added to backlog,system,2026-01-06T08:41:12.637495+00:00
+S-638715,T-93416,U-115,Status changed to In Progress,system,2026-01-06T08:41:12.654495+00:00
+S-771476,T-93416,U-115,Assignee started work,system,2026-01-06T08:41:12.654495+00:00
+S-309142,T-78671,U-115,Status changed to In Progress,system,2026-01-06T08:41:12.723261+00:00
+S-567348,T-78671,U-115,Assignee started work,system,2026-01-06T08:41:12.724265+00:00
+S-604166,T-97624,U-150,Task created,system,2026-01-06T08:41:12.731263+00:00
+S-318577,T-97624,U-150,Added to backlog,system,2026-01-06T08:41:12.731263+00:00
+S-522846,T-83225,U-115,Task created,system,2026-01-06T08:41:12.736261+00:00
+S-850506,T-83225,U-115,Added to backlog,system,2026-01-06T08:41:12.736261+00:00
+S-282808,T-84948,U-137,Moved to In Review,system,2026-01-06T08:41:12.736261+00:00
+S-965734,T-84948,U-137,Review requested,system,2026-01-06T08:41:12.736261+00:00
+S-617981,T-44732,U-120,Moved to In Review,system,2026-01-06T08:41:12.738260+00:00
+S-112576,T-44732,U-120,Review requested,system,2026-01-06T08:41:12.738260+00:00
+S-481108,T-33188,U-115,Moved to In Review,system,2026-01-06T08:41:12.743274+00:00
+S-623879,T-33188,U-115,Review requested,system,2026-01-06T08:41:12.743274+00:00
+S-372214,T-25855,U-119,Task marked as Done,system,2026-01-06T08:41:12.743274+00:00
+S-252202,T-25855,U-119,Task closed,system,2026-01-06T08:41:12.743274+00:00
+S-437657,T-41219,U-119,Moved to In Review,system,2026-01-06T08:41:12.768624+00:00
+S-434003,T-41219,U-119,Review requested,system,2026-01-06T08:41:12.768624+00:00
+S-847270,T-34115,U-139,Task created,system,2026-01-06T08:41:12.772627+00:00
+S-107116,T-34115,U-139,Added to backlog,system,2026-01-06T08:41:12.772627+00:00
+S-974146,T-61569,U-105,Status changed to In Progress,system,2026-01-06T08:41:12.776625+00:00
+S-934161,T-61569,U-105,Assignee started work,system,2026-01-06T08:41:12.776625+00:00
+S-518020,T-79554,U-139,Task created,system,2026-01-06T08:41:12.781309+00:00
+S-390273,T-79554,U-139,Added to backlog,system,2026-01-06T08:41:12.781309+00:00
+S-617032,T-59019,U-139,Status changed to In Progress,system,2026-01-06T08:41:12.781309+00:00
+S-302452,T-59019,U-139,Assignee started work,system,2026-01-06T08:41:12.781309+00:00
+S-181823,T-66854,U-119,Status changed to In Progress,system,2026-01-06T08:41:12.784320+00:00
+S-186432,T-66854,U-119,Assignee started work,system,2026-01-06T08:41:12.784320+00:00
+S-556806,T-37015,U-139,Moved to In Review,system,2026-01-06T08:41:12.784320+00:00
+S-934400,T-37015,U-139,Review requested,system,2026-01-06T08:41:12.784320+00:00
+S-333735,T-40803,U-119,Task created,system,2026-01-06T08:41:12.788318+00:00
+S-161290,T-40803,U-119,Added to backlog,system,2026-01-06T08:41:12.788318+00:00
+S-529779,T-31653,U-126,Moved to In Review,system,2026-01-06T08:41:12.788318+00:00
+S-574893,T-31653,U-126,Review requested,system,2026-01-06T08:41:12.788318+00:00
+S-551199,T-21047,U-103,Task created,system,2026-01-06T08:41:12.792317+00:00
+S-570472,T-21047,U-103,Added to backlog,system,2026-01-06T08:41:12.792317+00:00
+S-928466,T-20411,U-119,Task created,system,2026-01-06T08:41:12.793317+00:00
+S-612061,T-20411,U-119,Added to backlog,system,2026-01-06T08:41:12.793317+00:00
+S-343910,T-37893,U-146,Task created,system,2026-01-06T08:41:12.800318+00:00
+S-278918,T-37893,U-146,Added to backlog,system,2026-01-06T08:41:12.800318+00:00
+S-751582,T-59104,U-104,Task created,system,2026-01-06T08:41:12.800318+00:00
+S-835306,T-59104,U-104,Added to backlog,system,2026-01-06T08:41:12.800318+00:00
+S-646193,T-38815,U-116,Status changed to In Progress,system,2026-01-06T08:41:12.804842+00:00
+S-608742,T-38815,U-116,Assignee started work,system,2026-01-06T08:41:12.804842+00:00
+S-938040,T-92641,U-132,Moved to In Review,system,2026-01-06T08:41:12.810586+00:00
+S-294512,T-92641,U-132,Review requested,system,2026-01-06T08:41:12.810586+00:00
+S-234053,T-81925,U-129,Moved to In Review,system,2026-01-06T08:41:12.816585+00:00
+S-153073,T-81925,U-129,Review requested,system,2026-01-06T08:41:12.816585+00:00
+S-722066,T-47301,U-146,Task created,system,2026-01-06T08:41:12.823104+00:00
+S-466704,T-47301,U-146,Added to backlog,system,2026-01-06T08:41:12.823104+00:00
+S-402379,T-68968,U-116,Status changed to In Progress,system,2026-01-06T08:41:12.828102+00:00
+S-461851,T-68968,U-116,Assignee started work,system,2026-01-06T08:41:12.828102+00:00
+S-200158,T-14506,U-132,Task created,system,2026-01-06T08:41:12.831101+00:00
+S-292469,T-14506,U-132,Added to backlog,system,2026-01-06T08:41:12.831101+00:00
+S-806705,T-30344,U-129,Task created,system,2026-01-06T08:41:12.837097+00:00
+S-553200,T-30344,U-129,Added to backlog,system,2026-01-06T08:41:12.837097+00:00

@@ -1,0 +1,51 @@
+user_id,name,email,team,role,seniority
+U-101,Amara O'Connor,amara.o'connor@startup.io,Brand-Design,Product Designer,Junior
+U-102,Priya Smith,priya.smith@startup.io,Data-Science,Data Engineer,Lead
+U-103,Yuki Park,yuki.park@startup.io,Product-Web,QA Automation Engineer,Mid-Level
+U-104,Noa Iyer,noa.iyer@startup.io,Brand-Design,Brand Strategist,Senior
+U-105,Finn Rodriguez,finn.rodriguez@startup.io,Product-Web,QA Automation Engineer,Staff
+U-106,Ji-won Kim,ji-won.kim@startup.io,Data-Science,AI Research Scientist,Junior
+U-107,Priya Sato,priya.sato@startup.io,Data-Science,Machine Learning Engineer,Mid-Level
+U-108,Zoe Petrov,zoe.petrov@startup.io,Data-Science,Machine Learning Engineer,Junior
+U-109,Chen Petrov,chen.petrov@startup.io,Growth,Lifecycle Email Marketer,Lead
+U-110,Aarav O'Connor,aarav.o'connor@startup.io,Brand-Design,Copywriter,Mid-Level
+U-111,Sasha Wang,sasha.wang@startup.io,Brand-Design,Product Designer,Senior
+U-112,Priya Petrov,priya.petrov@startup.io,Infrastructure,Cloud Architect,Junior
+U-113,Ji-won Gupta,ji-won.gupta@startup.io,Data-Science,Data Scientist,Mid-Level
+U-114,Mateo Sato,mateo.sato@startup.io,Brand-Design,Copywriter,Mid-Level
+U-115,Zoe O'Connor,zoe.o'connor@startup.io,Growth,Data Analyst,Mid-Level
+U-116,Yuki Tanaka,yuki.tanaka@startup.io,Brand-Design,Creative Director,Senior
+U-117,Sasha Gupta,sasha.gupta@startup.io,Growth,SEO Specialist,Senior
+U-118,Chen Sato,chen.sato@startup.io,Infrastructure,Technical Project Manager,Lead
+U-119,Finn Iyer,finn.iyer@startup.io,Product-Web,QA Automation Engineer,Junior
+U-120,Yuki Tanaka,yuki.tanaka@startup.io,Growth,Performance Marketing Manager,Staff
+U-121,Aarav Iyer,aarav.iyer@startup.io,Data-Science,Analytics Manager,Junior
+U-122,Finn Iyer,finn.iyer@startup.io,Brand-Design,Visual Designer,Senior
+U-123,Hiroshi Johansson,hiroshi.johansson@startup.io,Infrastructure,Site Reliability Engineer,Staff
+U-124,Finn Silva,finn.silva@startup.io,Infrastructure,Site Reliability Engineer,Lead
+U-125,Aarav Gupta,aarav.gupta@startup.io,Infrastructure,Security Analyst,Senior
+U-126,Liam Johansson,liam.johansson@startup.io,Product-Web,Full Stack Developer,Lead
+U-127,Finn Rodriguez,finn.rodriguez@startup.io,Data-Science,AI Research Scientist,Junior
+U-128,Liam Cohen,liam.cohen@startup.io,Infrastructure,Site Reliability Engineer,Staff
+U-129,Yuki Gupta,yuki.gupta@startup.io,Brand-Design,Product Designer,Mid-Level
+U-130,Elena Rodriguez,elena.rodriguez@startup.io,Infrastructure,Site Reliability Engineer,Junior
+U-131,Aarav Gupta,aarav.gupta@startup.io,Brand-Design,Brand Strategist,Senior
+U-132,Liam Sato,liam.sato@startup.io,Brand-Design,Copywriter,Junior
+U-133,Lars Müller,lars.müller@startup.io,Data-Science,BI Developer,Mid-Level
+U-134,Finn Müller,finn.müller@startup.io,Infrastructure,Cloud Architect,Junior
+U-135,Liam Park,liam.park@startup.io,Product-Web,Product Manager,Senior
+U-136,Elena Kim,elena.kim@startup.io,Data-Science,AI Research Scientist,Lead
+U-137,Zoe Petrov,zoe.petrov@startup.io,Growth,Data Analyst,Senior
+U-138,Noa Abbe,noa.abbe@startup.io,Data-Science,AI Research Scientist,Mid-Level
+U-139,Aarav Tanaka,aarav.tanaka@startup.io,Product-Web,Full Stack Developer,Junior
+U-140,Ji-won Cohen,ji-won.cohen@startup.io,Data-Science,Data Scientist,Staff
+U-141,Mateo Silva,mateo.silva@startup.io,Infrastructure,Site Reliability Engineer,Senior
+U-142,Priya O'Connor,priya.o'connor@startup.io,Data-Science,BI Developer,Senior
+U-143,Chen Sato,chen.sato@startup.io,Brand-Design,Brand Strategist,Mid-Level
+U-144,Noa Gupta,noa.gupta@startup.io,Brand-Design,Brand Strategist,Junior
+U-145,Mateo Kim,mateo.kim@startup.io,Brand-Design,Motion Graphics Artist,Junior
+U-146,Hiroshi Park,hiroshi.park@startup.io,Brand-Design,Creative Director,Lead
+U-147,Lars Smith,lars.smith@startup.io,Data-Science,Data Scientist,Lead
+U-148,Fatima Cohen,fatima.cohen@startup.io,Data-Science,Data Scientist,Junior
+U-149,Liam Silva,liam.silva@startup.io,Data-Science,Analytics Manager,Staff
+U-150,Priya Abbe,priya.abbe@startup.io,Growth,Lifecycle Email Marketer,Senior

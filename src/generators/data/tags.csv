@@ -1,0 +1,6 @@
+tag_id,workspace_id,name,color
+T-0,f84ebabd-7ec2-4538-b23a-929612a620d1,frontend,blue
+T-1,f84ebabd-7ec2-4538-b23a-929612a620d1,backend,green
+T-2,f84ebabd-7ec2-4538-b23a-929612a620d1,security,red
+T-3,f84ebabd-7ec2-4538-b23a-929612a620d1,growth,purple
+T-4,f84ebabd-7ec2-4538-b23a-929612a620d1,infra,orange

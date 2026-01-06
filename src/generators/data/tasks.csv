@@ -1,0 +1,376 @@
+task_id,project_id,project_name,assigned_user_id,assigned_user_name,seniority,task_title,priority,status,created_at
+T-15572,P-01,Project Apollo: Kubernetes Migration,U-141,Mateo Silva,Senior,Azure Managed Redis - Setting up a private cache,High,In Review,2026-03-17
+T-33534,P-01,Project Apollo: Kubernetes Migration,U-128,Liam Cohen,Staff,Optimize API authentication in the microservices,High,In Progress,2026-02-11
+T-38509,P-01,Project Apollo: Kubernetes Migration,U-125,Aarav Gupta,Senior,Deprecate Redis caching before next release,High,In Progress,2026-02-21
+T-52764,P-01,Project Apollo: Kubernetes Migration,U-112,Priya Petrov,Junior,feat: Add fix to pyarrow,Low,Todo,2026-03-18
+T-92325,P-01,Project Apollo: Kubernetes Migration,U-118,Chen Sato,Lead,Dockerize API authentication for mobile users,High,In Progress,2026-02-27
+T-63638,P-01,Project Apollo: Kubernetes Migration,U-118,Chen Sato,Lead,Refactor CI/CD pipeline causing 500 errors,Critical,In Review,2026-01-25
+T-73630,P-01,Project Apollo: Kubernetes Migration,U-112,Priya Petrov,Junior,Copy uv-installed tool to next stage of Docker build,Low,In Progress,2026-03-28
+T-92868,P-01,Project Apollo: Kubernetes Migration,U-130,Elena Rodriguez,Junior,Restaurant Chatbot Chunking Issue,Medium,Todo,2026-03-12
+T-86096,P-01,Project Apollo: Kubernetes Migration,U-123,Hiroshi Johansson,Staff,Identifying Memory Bottlenecks in ASP.NET Core Request Body Mapping using Visual Studio Profiler,Critical,In Progress,2026-03-25
+T-54061,P-01,Project Apollo: Kubernetes Migration,U-112,Priya Petrov,Junior,Performing OTA on ESP32 via Google Sheets,Medium,In Progress,2026-01-22
+T-85819,P-01,Project Apollo: Kubernetes Migration,U-112,Priya Petrov,Junior,"Sylius: Default locale without URL prefix, secondary locale with prefix",Low,Done,2026-03-25
+T-10541,P-01,Project Apollo: Kubernetes Migration,U-123,Hiroshi Johansson,Staff,DOC: clarify description of GroupBy.groups attribute,High,In Review,2026-02-15
+T-99023,P-01,Project Apollo: Kubernetes Migration,U-112,Priya Petrov,Junior,DOC: Correct grammar usage regarding a/an usage,Medium,Todo,2026-01-28
+T-33835,P-01,Project Apollo: Kubernetes Migration,U-112,Priya Petrov,Junior,Airflow 3.0 After setting Oauth getting 403 forbidden errors in the UI as shown in screen shot,Low,Todo,2026-01-15
+T-40236,P-01,Project Apollo: Kubernetes Migration,U-112,Priya Petrov,Junior,"DOC: Fix SA01,ES01 for pandas.tseries.offsets.Day.freqstr",Medium,In Review,2026-02-18
+T-24251,P-02,Zero-Trust Security Audit,U-124,Finn Silva,Lead,Deprecate API authentication causing 500 errors,High,In Progress,2026-03-22
+T-57167,P-02,Zero-Trust Security Audit,U-134,Finn Müller,Junior,Optimize payment gateway for legacy support,Low,Todo,2026-01-26
+T-88617,P-02,Zero-Trust Security Audit,U-130,Elena Rodriguez,Junior,Modern pandas extension,Medium,In Progress,2026-02-26
+T-27543,P-02,Zero-Trust Security Audit,U-118,Chen Sato,Lead,Spring AsyncConfigurer isn't being called,Critical,Todo,2026-02-21
+T-68994,P-02,Zero-Trust Security Audit,U-112,Priya Petrov,Junior,DOC: update dropdown logic to use 'dev' version for commits after the rc,Low,In Review,2026-01-23
+T-91263,P-02,Zero-Trust Security Audit,U-130,Elena Rodriguez,Junior,DOC: Fix typing of copy argument in astype,Medium,Todo,2026-01-19
+T-52240,P-02,Zero-Trust Security Audit,U-112,Priya Petrov,Junior,Refactor Redis caching before next release,Medium,In Review,2026-01-24
+T-91043,P-02,Zero-Trust Security Audit,U-130,Elena Rodriguez,Junior,Refactor CI/CD pipeline causing 500 errors,Low,In Review,2026-01-15
+T-51163,P-02,Zero-Trust Security Audit,U-130,Elena Rodriguez,Junior,Minimal plugins for C# libvlcharp - how to determine,Low,In Progress,2026-03-13
+T-41138,P-02,Zero-Trust Security Audit,U-130,Elena Rodriguez,Junior,"Expo/EAS build fails: ""First argument of `require.context` should be a string"" — `Invalid call: process.env.EXPO_ROUTER_APP_ROOT`",Medium,In Review,2026-02-11
+T-89667,P-02,Zero-Trust Security Audit,U-130,Elena Rodriguez,Junior,Dockerize API authentication for legacy support,Medium,Todo,2026-02-19
+T-98969,P-02,Zero-Trust Security Audit,U-123,Hiroshi Johansson,Staff,DOC: inline docstring in CalamineReader,Critical,In Progress,2026-02-15
+T-81547,P-02,Zero-Trust Security Audit,U-112,Priya Petrov,Junior,Fix database schema causing 500 errors,Medium,In Progress,2026-03-23
+T-20405,P-02,Zero-Trust Security Audit,U-134,Finn Müller,Junior,Oracle CTE query not joining as expected (null fields when both tables joined),Low,In Review,2026-02-19
+T-12180,P-02,Zero-Trust Security Audit,U-128,Liam Cohen,Staff,How to fix client mismatch when setting up clerk authentication,Critical,In Progress,2026-02-21
+T-46238,P-11,Multi-Region Failover Setup,U-134,Finn Müller,Junior,What is the system call interface?,Medium,Todo,2026-02-22
+T-48925,P-11,Multi-Region Failover Setup,U-124,Finn Silva,Lead,Scale memory leak causing 500 errors,High,Todo,2026-02-12
+T-53758,P-11,Multi-Region Failover Setup,U-134,Finn Müller,Junior,ERR: Validate numeric_only accepts only bool in reduction operations,Low,Done,2026-02-24
+T-83012,P-11,Multi-Region Failover Setup,U-130,Elena Rodriguez,Junior,"Revert ""DOC: allow rebuilding versioned docs through workflow_dispatch""",Low,In Progress,2026-01-11
+T-52657,P-11,Multi-Region Failover Setup,U-141,Mateo Silva,Senior,"DOC: Fix SA01,ES01 for pandas.tseries.offsets.Day.freqstr",Critical,Todo,2026-03-24
+T-94682,P-11,Multi-Region Failover Setup,U-112,Priya Petrov,Junior,How do I recover deleted Postman collections that aren't in the trash? [closed],Low,In Review,2026-01-26
+T-71863,P-11,Multi-Region Failover Setup,U-130,Elena Rodriguez,Junior,Scoped service state resets randomly after async JS interop + navigation. is this a DI lifetime or rendering issue?,Low,In Progress,2026-01-19
+T-97394,P-11,Multi-Region Failover Setup,U-130,Elena Rodriguez,Junior,When we connect a linked list node to another node does the previous connection automatically break,Medium,Todo,2026-01-12
+T-54157,P-11,Multi-Region Failover Setup,U-123,Hiroshi Johansson,Staff,Dockerize payment gateway in the microservices,Critical,Todo,2026-01-14
+T-11110,P-11,Multi-Region Failover Setup,U-124,Finn Silva,Lead,Double-Double test implementation,Critical,Todo,2026-03-26
+T-18501,P-11,Multi-Region Failover Setup,U-125,Aarav Gupta,Senior,Sticky action column in paginated table turns rows below white when opening modal – z-index issue or stacking context?,High,Todo,2026-03-28
+T-14901,P-11,Multi-Region Failover Setup,U-128,Liam Cohen,Staff,TST: Added test to check replacing a series with mixed types with None,Critical,In Review,2026-03-22
+T-35123,P-11,Multi-Region Failover Setup,U-123,Hiroshi Johansson,Staff,CLN: Replace else-if with elif in pandas/core (PLR5501),Critical,Todo,2026-01-18
+T-48574,P-11,Multi-Region Failover Setup,U-141,Mateo Silva,Senior,EF Core database-first upgrade dilemma,Critical,In Review,2026-01-12
+T-51719,P-11,Multi-Region Failover Setup,U-130,Elena Rodriguez,Junior,DOC: clarify description of GroupBy.groups attribute,Low,Todo,2026-02-18
+T-73769,P-21,Cloud Cost Optimization (FinOps),U-124,Finn Silva,Lead,Refresh competitor backlink profile to improve CTR,High,In Progress,2026-01-23
+T-58539,P-21,Cloud Cost Optimization (FinOps),U-112,Priya Petrov,Junior,Launch onboarding email sequence to boost conversion,Low,In Progress,2026-02-14
+T-91034,P-21,Cloud Cost Optimization (FinOps),U-134,Finn Müller,Junior,Schedule Q3 newsletter for upcoming webinar,Medium,Todo,2026-02-27
+T-41672,P-21,Cloud Cost Optimization (FinOps),U-141,Mateo Silva,Senior,Draft SEO keywords for holiday promotion,Critical,In Progress,2026-02-26
+T-42464,P-21,Cloud Cost Optimization (FinOps),U-141,Mateo Silva,Senior,Design Facebook ad creatives targeting SaaS founders,High,In Progress,2026-01-14
+T-16635,P-21,Cloud Cost Optimization (FinOps),U-124,Finn Silva,Lead,A/B Test onboarding email sequence using new brand voice,High,In Progress,2026-03-18
+T-17276,P-21,Cloud Cost Optimization (FinOps),U-134,Finn Müller,Junior,Launch onboarding email sequence to boost conversion,Medium,In Review,2026-02-20
+T-24429,P-21,Cloud Cost Optimization (FinOps),U-134,Finn Müller,Junior,Launch SEO keywords for holiday promotion,Medium,In Progress,2026-03-27
+T-33302,P-21,Cloud Cost Optimization (FinOps),U-141,Mateo Silva,Senior,A/B Test drip campaign targeting SaaS founders,Critical,Todo,2026-02-22
+T-19657,P-21,Cloud Cost Optimization (FinOps),U-123,Hiroshi Johansson,Staff,Design competitor backlink profile targeting SaaS founders,Critical,In Review,2026-01-15
+T-30612,P-21,Cloud Cost Optimization (FinOps),U-124,Finn Silva,Lead,Schedule landing page copy using new brand voice,Critical,In Review,2026-03-20
+T-94398,P-21,Cloud Cost Optimization (FinOps),U-134,Finn Müller,Junior,Schedule Facebook ad creatives using new brand voice,Low,Todo,2026-03-26
+T-54293,P-21,Cloud Cost Optimization (FinOps),U-123,Hiroshi Johansson,Staff,Audit drip campaign targeting SaaS founders,High,In Review,2026-03-27
+T-54418,P-21,Cloud Cost Optimization (FinOps),U-130,Elena Rodriguez,Junior,Audit drip campaign targeting SaaS founders,Medium,Done,2026-01-23
+T-59377,P-21,Cloud Cost Optimization (FinOps),U-134,Finn Müller,Junior,Launch SEO keywords to boost conversion,Medium,In Review,2026-03-26
+T-91876,P-03,Titan: Legacy Refactor,U-139,Aarav Tanaka,Junior,GitHub App webhook triggers on pull request events but not on push to branches,Low,Todo,2026-03-19
+T-62815,P-03,Titan: Legacy Refactor,U-135,Liam Park,Senior,Optimize payment gateway for legacy support,High,Done,2026-03-22
+T-78518,P-03,Titan: Legacy Refactor,U-119,Finn Iyer,Junior,React Native iOS 26 Liquid Glass Text Input,Low,In Progress,2026-03-13
+T-91190,P-03,Titan: Legacy Refactor,U-126,Liam Johansson,Lead,DOC: Inline docstring in `pandas/io/formats/xml.py`,Critical,In Progress,2026-01-12
+T-84624,P-03,Titan: Legacy Refactor,U-105,Finn Rodriguez,Staff,Deprecate Redis caching before next release,Critical,Todo,2026-02-10
+T-76669,P-03,Titan: Legacy Refactor,U-103,Yuki Park,Mid-Level,BUG: setitem with list of NaT,Medium,In Review,2026-01-16
+T-45518,P-03,Titan: Legacy Refactor,U-126,Liam Johansson,Lead,Implement database schema before next release,Critical,Todo,2026-03-16
+T-38923,P-03,Titan: Legacy Refactor,U-103,Yuki Park,Mid-Level,NetBeans thinks every folder has already been used as a source package,Medium,Done,2026-03-20
+T-85336,P-03,Titan: Legacy Refactor,U-135,Liam Park,Senior,Migrate CI/CD pipeline for legacy support,Critical,Done,2026-02-24
+T-98065,P-03,Titan: Legacy Refactor,U-135,Liam Park,Senior,"Revert ""DOC: allow rebuilding versioned docs through workflow_dispatch""",High,Todo,2026-02-23
+T-48248,P-03,Titan: Legacy Refactor,U-139,Aarav Tanaka,Junior,Which Python libraries are best for building a PDF to HTML conversion tool? [closed],Medium,In Progress,2026-02-25
+T-47225,P-03,Titan: Legacy Refactor,U-119,Finn Iyer,Junior,Scale Redis caching for mobile users,Medium,Done,2026-01-25
+T-94165,P-03,Titan: Legacy Refactor,U-119,Finn Iyer,Junior,DOC: Inline docstrings of a batch of functions in `pandas/core/generic.py`,Medium,Todo,2026-01-22
+T-97615,P-03,Titan: Legacy Refactor,U-119,Finn Iyer,Junior,Google Sheet - Conditional Formatting Issue,Low,In Progress,2026-03-16
+T-93467,P-03,Titan: Legacy Refactor,U-119,Finn Iyer,Junior,Deprecate memory leak before next release,Low,Todo,2026-02-27
+T-88940,P-08,Accessibility (WCAG) Compliance,U-103,Yuki Park,Mid-Level,Refresh competitor backlink profile to improve CTR,Low,In Review,2026-01-12
+T-37263,P-08,Accessibility (WCAG) Compliance,U-119,Finn Iyer,Junior,Schedule Q3 newsletter for upcoming webinar,Low,In Review,2026-01-28
+T-36596,P-08,Accessibility (WCAG) Compliance,U-103,Yuki Park,Mid-Level,Refresh Q3 newsletter for holiday promotion,Low,Todo,2026-03-11
+T-90005,P-08,Accessibility (WCAG) Compliance,U-119,Finn Iyer,Junior,A/B Test drip campaign to improve CTR,Medium,In Progress,2026-01-28
+T-53241,P-08,Accessibility (WCAG) Compliance,U-139,Aarav Tanaka,Junior,Schedule onboarding email sequence to improve CTR,Medium,In Progress,2026-02-13
+T-51639,P-08,Accessibility (WCAG) Compliance,U-126,Liam Johansson,Lead,Draft onboarding email sequence targeting SaaS founders,High,Done,2026-03-22
+T-53003,P-08,Accessibility (WCAG) Compliance,U-105,Finn Rodriguez,Staff,Schedule Facebook ad creatives targeting SaaS founders,High,In Review,2026-01-14
+T-42697,P-08,Accessibility (WCAG) Compliance,U-126,Liam Johansson,Lead,Refresh landing page copy targeting SaaS founders,Critical,In Review,2026-03-27
+T-77357,P-08,Accessibility (WCAG) Compliance,U-139,Aarav Tanaka,Junior,A/B Test onboarding email sequence using new brand voice,Medium,In Progress,2026-01-17
+T-80149,P-08,Accessibility (WCAG) Compliance,U-103,Yuki Park,Mid-Level,Refresh drip campaign targeting SaaS founders,Medium,In Progress,2026-03-28
+T-54202,P-08,Accessibility (WCAG) Compliance,U-135,Liam Park,Senior,Optimize landing page copy to improve CTR,High,Todo,2026-03-24
+T-27589,P-08,Accessibility (WCAG) Compliance,U-119,Finn Iyer,Junior,A/B Test SEO keywords targeting SaaS founders,Low,Done,2026-03-23
+T-65639,P-08,Accessibility (WCAG) Compliance,U-119,Finn Iyer,Junior,A/B Test landing page copy for holiday promotion,Medium,In Progress,2026-01-25
+T-51640,P-08,Accessibility (WCAG) Compliance,U-135,Liam Park,Senior,Launch SEO keywords to boost conversion,High,In Review,2026-03-23
+T-66770,P-08,Accessibility (WCAG) Compliance,U-126,Liam Johansson,Lead,Draft drip campaign using new brand voice,Critical,In Progress,2026-01-10
+T-96881,P-12,Checkout Flow Redesign,U-135,Liam Park,Senior,A/B Test competitor backlink profile to boost conversion,Critical,In Progress,2026-01-10
+T-55038,P-12,Checkout Flow Redesign,U-103,Yuki Park,Mid-Level,Optimize onboarding email sequence to improve CTR,Medium,In Review,2026-03-18
+T-72795,P-12,Checkout Flow Redesign,U-103,Yuki Park,Mid-Level,Design competitor backlink profile targeting SaaS founders,Low,In Progress,2026-01-11
+T-54626,P-12,Checkout Flow Redesign,U-135,Liam Park,Senior,Launch drip campaign for upcoming webinar,Critical,In Review,2026-03-22
+T-59148,P-12,Checkout Flow Redesign,U-139,Aarav Tanaka,Junior,Design competitor backlink profile targeting SaaS founders,Low,In Progress,2026-03-16
+T-80815,P-12,Checkout Flow Redesign,U-135,Liam Park,Senior,Refresh landing page copy targeting SaaS founders,High,In Progress,2026-01-18
+T-67842,P-12,Checkout Flow Redesign,U-139,Aarav Tanaka,Junior,Draft SEO keywords for holiday promotion,Medium,Todo,2026-01-10
+T-31485,P-12,Checkout Flow Redesign,U-103,Yuki Park,Mid-Level,Schedule SEO keywords for holiday promotion,Low,In Progress,2026-03-18
+T-30149,P-12,Checkout Flow Redesign,U-126,Liam Johansson,Lead,Optimize Q3 newsletter targeting SaaS founders,Critical,In Review,2026-01-15
+T-31750,P-12,Checkout Flow Redesign,U-135,Liam Park,Senior,Design drip campaign using new brand voice,High,In Progress,2026-03-14
+T-85105,P-12,Checkout Flow Redesign,U-135,Liam Park,Senior,A/B Test Facebook ad creatives for upcoming webinar,High,In Progress,2026-01-16
+T-90627,P-12,Checkout Flow Redesign,U-126,Liam Johansson,Lead,Design landing page copy to boost conversion,High,Todo,2026-01-12
+T-88465,P-12,Checkout Flow Redesign,U-139,Aarav Tanaka,Junior,Design Q3 newsletter targeting SaaS founders,Medium,In Review,2026-02-13
+T-10337,P-12,Checkout Flow Redesign,U-135,Liam Park,Senior,Refresh competitor backlink profile to improve CTR,Critical,Done,2026-03-22
+T-43471,P-12,Checkout Flow Redesign,U-105,Finn Rodriguez,Staff,A/B Test drip campaign to improve CTR,High,In Progress,2026-01-26
+T-77304,P-22,Internal Admin Dashboard v3,U-139,Aarav Tanaka,Junior,"Compile ""Simple-Contacts"" App from Github in Android Studio",Medium,In Progress,2026-02-22
+T-72586,P-22,Internal Admin Dashboard v3,U-103,Yuki Park,Mid-Level,DOC: fix offline documentation search behavior,Low,In Progress,2026-02-21
+T-33340,P-22,Internal Admin Dashboard v3,U-119,Finn Iyer,Junior,How can I define different style for different page in CSS?,Medium,Done,2026-01-15
+T-39677,P-22,Internal Admin Dashboard v3,U-103,Yuki Park,Mid-Level,"Revert ""DOC: allow rebuilding versioned docs through workflow_dispatch""",Medium,In Review,2026-03-28
+T-63678,P-22,Internal Admin Dashboard v3,U-126,Liam Johansson,Lead,"DOC: Fix SA01,ES01 for pandas.tseries.offsets.Day.freqstr",High,Todo,2026-01-10
+T-84847,P-22,Internal Admin Dashboard v3,U-103,Yuki Park,Mid-Level,BUG: iloc[0] raises ValueError with SparseArray column and numpy array column,Medium,In Progress,2026-03-20
+T-35915,P-22,Internal Admin Dashboard v3,U-139,Aarav Tanaka,Junior,"DOC: Fix SA01,ES01,PR07 for pandas.util.hash_pandas_object",Medium,Todo,2026-03-20
+T-27088,P-22,Internal Admin Dashboard v3,U-119,Finn Iyer,Junior,ENH: Decay-weighted rolling aggregations with defined behavior for duplicate timestamps,Low,In Progress,2026-01-26
+T-22106,P-22,Internal Admin Dashboard v3,U-119,Finn Iyer,Junior,ENH: Add month accessor support for PyArrow-backed DatetimeIndex,Low,Todo,2026-03-11
+T-84549,P-22,Internal Admin Dashboard v3,U-119,Finn Iyer,Junior,DOC: Inline docstring in `pandas/io/json/_json.py`,Medium,Todo,2026-01-27
+T-91315,P-22,Internal Admin Dashboard v3,U-119,Finn Iyer,Junior,How to export a patchwork plot with fixed dimensions in points (180×170) and 6 plots per row?,Low,In Progress,2026-02-13
+T-38227,P-22,Internal Admin Dashboard v3,U-126,Liam Johansson,Lead,Migrate Redis caching before next release,High,Todo,2026-01-16
+T-37399,P-22,Internal Admin Dashboard v3,U-139,Aarav Tanaka,Junior,ENH: Add strict=True to zip() calls in pandas/core/reshape/,Medium,Todo,2026-03-20
+T-86983,P-22,Internal Admin Dashboard v3,U-105,Finn Rodriguez,Staff,"DOC: Fix SA01,EX01 for pandas.DataFrame.from_arrow",Critical,In Review,2026-03-14
+T-49633,P-22,Internal Admin Dashboard v3,U-105,Finn Rodriguez,Staff,Java (Minecraft Forge): Somehow getting NullPointerExceptions immediately after checking that the variable in question is not null,Critical,Todo,2026-01-25
+T-80610,P-04,Viral Loop: Referral Engine,U-150,Priya Abbe,Senior,Refresh landing page copy targeting SaaS founders,Critical,In Progress,2026-01-21
+T-11286,P-04,Viral Loop: Referral Engine,U-115,Zoe O'Connor,Mid-Level,Design Q3 newsletter targeting SaaS founders,Medium,In Progress,2026-02-26
+T-46889,P-04,Viral Loop: Referral Engine,U-115,Zoe O'Connor,Mid-Level,Draft SEO keywords for holiday promotion,Medium,In Progress,2026-01-18
+T-33844,P-04,Viral Loop: Referral Engine,U-115,Zoe O'Connor,Mid-Level,Schedule Facebook ad creatives using new brand voice,Medium,Todo,2026-02-16
+T-41304,P-04,Viral Loop: Referral Engine,U-115,Zoe O'Connor,Mid-Level,A/B Test landing page copy for holiday promotion,Medium,Todo,2026-03-10
+T-20293,P-04,Viral Loop: Referral Engine,U-117,Sasha Gupta,Senior,Refresh drip campaign for upcoming webinar,Critical,Todo,2026-01-14
+T-12456,P-04,Viral Loop: Referral Engine,U-137,Zoe Petrov,Senior,Draft Q3 newsletter using new brand voice,High,In Progress,2026-01-26
+T-57177,P-04,Viral Loop: Referral Engine,U-115,Zoe O'Connor,Mid-Level,Launch drip campaign for upcoming webinar,Low,Todo,2026-01-24
+T-73171,P-04,Viral Loop: Referral Engine,U-117,Sasha Gupta,Senior,Draft drip campaign using new brand voice,High,In Review,2026-01-27
+T-86157,P-04,Viral Loop: Referral Engine,U-137,Zoe Petrov,Senior,Schedule onboarding email sequence to improve CTR,Critical,Todo,2026-03-24
+T-53062,P-04,Viral Loop: Referral Engine,U-150,Priya Abbe,Senior,Schedule Facebook ad creatives using new brand voice,Critical,Todo,2026-02-18
+T-42059,P-04,Viral Loop: Referral Engine,U-115,Zoe O'Connor,Mid-Level,Design Facebook ad creatives targeting SaaS founders,Medium,Done,2026-01-12
+T-87893,P-04,Viral Loop: Referral Engine,U-117,Sasha Gupta,Senior,Refresh competitor backlink profile to improve CTR,High,Todo,2026-03-13
+T-29619,P-04,Viral Loop: Referral Engine,U-115,Zoe O'Connor,Mid-Level,Draft drip campaign for upcoming webinar,Medium,Done,2026-02-15
+T-27923,P-04,Viral Loop: Referral Engine,U-115,Zoe O'Connor,Mid-Level,Schedule SEO keywords for holiday promotion,Low,In Progress,2026-02-26
+T-31629,P-07,Project Helios: SEO Dominance,U-115,Zoe O'Connor,Mid-Level,Schedule Facebook ad creatives using new brand voice,Low,In Progress,2026-01-27
+T-42112,P-07,Project Helios: SEO Dominance,U-115,Zoe O'Connor,Mid-Level,Draft Q3 newsletter using new brand voice,Low,In Review,2026-01-25
+T-12529,P-07,Project Helios: SEO Dominance,U-115,Zoe O'Connor,Mid-Level,A/B Test Facebook ad creatives for upcoming webinar,Medium,Todo,2026-01-21
+T-70613,P-07,Project Helios: SEO Dominance,U-137,Zoe Petrov,Senior,Design SEO keywords to boost conversion,Critical,Todo,2026-01-28
+T-93046,P-07,Project Helios: SEO Dominance,U-150,Priya Abbe,Senior,Design Facebook ad creatives to improve CTR,High,Todo,2026-03-26
+T-86757,P-07,Project Helios: SEO Dominance,U-115,Zoe O'Connor,Mid-Level,Launch SEO keywords for holiday promotion,Low,Todo,2026-01-26
+T-60985,P-07,Project Helios: SEO Dominance,U-137,Zoe Petrov,Senior,Refresh drip campaign for upcoming webinar,High,Done,2026-03-17
+T-19574,P-07,Project Helios: SEO Dominance,U-115,Zoe O'Connor,Mid-Level,Refresh competitor backlink profile to improve CTR,Low,Done,2026-03-17
+T-48447,P-07,Project Helios: SEO Dominance,U-120,Yuki Tanaka,Staff,Optimize onboarding email sequence to improve CTR,High,In Progress,2026-02-14
+T-80826,P-07,Project Helios: SEO Dominance,U-115,Zoe O'Connor,Mid-Level,Refresh competitor backlink profile to improve CTR,Medium,Todo,2026-02-27
+T-69442,P-07,Project Helios: SEO Dominance,U-115,Zoe O'Connor,Mid-Level,A/B Test drip campaign to improve CTR,Medium,In Review,2026-03-28
+T-89809,P-07,Project Helios: SEO Dominance,U-120,Yuki Tanaka,Staff,Optimize onboarding email sequence to improve CTR,High,Todo,2026-01-19
+T-97292,P-07,Project Helios: SEO Dominance,U-115,Zoe O'Connor,Mid-Level,Audit onboarding email sequence for holiday promotion,Medium,In Progress,2026-02-14
+T-76789,P-07,Project Helios: SEO Dominance,U-115,Zoe O'Connor,Mid-Level,Design SEO keywords to boost conversion,Medium,Todo,2026-02-23
+T-53721,P-07,Project Helios: SEO Dominance,U-120,Yuki Tanaka,Staff,Analyze Facebook ad creatives for holiday promotion,Critical,In Review,2026-01-13
+T-31368,P-13,A/B Testing Framework Integration,U-115,Zoe O'Connor,Mid-Level,Modern pandas extension,Medium,Done,2026-01-27
+T-10944,P-13,A/B Testing Framework Integration,U-115,Zoe O'Connor,Mid-Level,NetBeans thinks every folder has already been used as a source package,Low,Todo,2026-03-26
+T-93412,P-13,A/B Testing Framework Integration,U-150,Priya Abbe,Senior,DOC: Inline docstring in `pandas/io/json/_json.py`,High,Todo,2026-03-17
+T-80006,P-13,A/B Testing Framework Integration,U-115,Zoe O'Connor,Mid-Level,Excluding category-title (not posts),Medium,In Review,2026-02-27
+T-22337,P-13,A/B Testing Framework Integration,U-115,Zoe O'Connor,Mid-Level,DotNet in Arize for LLM Observability,Low,Done,2026-01-14
+T-12606,P-13,A/B Testing Framework Integration,U-137,Zoe Petrov,Senior,Refactor CI/CD pipeline causing 500 errors,Critical,In Progress,2026-02-14
+T-84953,P-13,A/B Testing Framework Integration,U-115,Zoe O'Connor,Mid-Level,DOC: Add See Also links to User Guide in API reference,Low,In Progress,2026-01-26
+T-40115,P-13,A/B Testing Framework Integration,U-137,Zoe Petrov,Senior,DEPR: Series.round and Series.clip on non-numeric dtypes,Critical,In Review,2026-01-23
+T-28580,P-13,A/B Testing Framework Integration,U-137,Zoe Petrov,Senior,Does Banno allow access to a Financial Institution’s database? [closed],High,Done,2026-03-20
+T-62505,P-13,A/B Testing Framework Integration,U-115,Zoe O'Connor,Mid-Level,Double-Double test implementation,Low,Todo,2026-03-16
+T-96269,P-13,A/B Testing Framework Integration,U-117,Sasha Gupta,Senior,Scale OAuth flow for mobile users,Critical,In Review,2026-02-16
+T-59795,P-13,A/B Testing Framework Integration,U-120,Yuki Tanaka,Staff,DEPR: Series.round and Series.clip on non-numeric dtypes,High,In Review,2026-03-24
+T-70385,P-13,A/B Testing Framework Integration,U-115,Zoe O'Connor,Mid-Level,What is the difference between a AVL and Redblack tree,Medium,Todo,2026-01-23
+T-62170,P-13,A/B Testing Framework Integration,U-137,Zoe Petrov,Senior,BUG: Fix str.cat losing StringDtype on index during alignment,Critical,In Progress,2026-01-13
+T-82603,P-13,A/B Testing Framework Integration,U-109,Chen Petrov,Lead,Implement Redis caching to reduce latency,High,In Review,2026-02-23
+T-53068,P-23,User Reactivation Campaign,U-137,Zoe Petrov,Senior,Analyze drip campaign targeting SaaS founders,Critical,Done,2026-03-21
+T-11434,P-23,User Reactivation Campaign,U-115,Zoe O'Connor,Mid-Level,Design drip campaign using new brand voice,Low,Done,2026-01-16
+T-70996,P-23,User Reactivation Campaign,U-115,Zoe O'Connor,Mid-Level,Refresh competitor backlink profile to improve CTR,Medium,In Review,2026-01-14
+T-97934,P-23,User Reactivation Campaign,U-115,Zoe O'Connor,Mid-Level,Launch drip campaign to boost conversion,Low,Done,2026-02-13
+T-83132,P-23,User Reactivation Campaign,U-115,Zoe O'Connor,Mid-Level,Draft SEO keywords for holiday promotion,Medium,Done,2026-03-27
+T-74280,P-23,User Reactivation Campaign,U-120,Yuki Tanaka,Staff,Optimize onboarding email sequence to improve CTR,High,Todo,2026-01-26
+T-95030,P-23,User Reactivation Campaign,U-117,Sasha Gupta,Senior,Optimize drip campaign using new brand voice,Critical,In Review,2026-02-16
+T-59953,P-23,User Reactivation Campaign,U-115,Zoe O'Connor,Mid-Level,Refresh drip campaign targeting SaaS founders,Medium,Todo,2026-02-22
+T-10607,P-23,User Reactivation Campaign,U-115,Zoe O'Connor,Mid-Level,Draft drip campaign for upcoming webinar,Low,Todo,2026-02-21
+T-43492,P-23,User Reactivation Campaign,U-120,Yuki Tanaka,Staff,Analyze Facebook ad creatives for holiday promotion,High,Todo,2026-02-10
+T-39501,P-23,User Reactivation Campaign,U-115,Zoe O'Connor,Mid-Level,Optimize onboarding email sequence to improve CTR,Low,In Progress,2026-03-28
+T-92996,P-23,User Reactivation Campaign,U-115,Zoe O'Connor,Mid-Level,Refresh drip campaign for upcoming webinar,Low,Todo,2026-03-17
+T-71039,P-23,User Reactivation Campaign,U-137,Zoe Petrov,Senior,Optimize Q3 newsletter targeting SaaS founders,High,In Progress,2026-02-14
+T-74504,P-23,User Reactivation Campaign,U-109,Chen Petrov,Lead,Schedule Facebook ad creatives targeting SaaS founders,Critical,In Progress,2026-01-13
+T-20162,P-23,User Reactivation Campaign,U-115,Zoe O'Connor,Mid-Level,Launch drip campaign to boost conversion,Low,Todo,2026-01-28
+T-93642,P-05,Project Oracle: Churn Prediction,U-149,Liam Silva,Staff,DOC: Inline docstring in `pandas/io/formats/excel.py`,High,Todo,2026-03-23
+T-36553,P-05,Project Oracle: Churn Prediction,U-102,Priya Smith,Lead,TextField border not continuing across pages in JasperReports subreport list,High,In Review,2026-01-28
+T-77754,P-05,Project Oracle: Churn Prediction,U-107,Priya Sato,Mid-Level,CLN: Inline .clang-config in pre-commit-config,Low,In Review,2026-02-11
+T-47696,P-05,Project Oracle: Churn Prediction,U-121,Aarav Iyer,Junior,Implement memory leak for legacy support,Low,Todo,2026-02-22
+T-82310,P-05,Project Oracle: Churn Prediction,U-149,Liam Silva,Staff,DOC: Inline docstring for str.rpartition,Critical,Todo,2026-02-27
+T-33544,P-05,Project Oracle: Churn Prediction,U-140,Ji-won Cohen,Staff,website fails to load properly or shows missing chunk after each redeployment,Critical,In Review,2026-03-13
+T-85080,P-05,Project Oracle: Churn Prediction,U-142,Priya O'Connor,Senior,Fix payment gateway before next release,Critical,Todo,2026-03-17
+T-55689,P-05,Project Oracle: Churn Prediction,U-147,Lars Smith,Lead,DOC: Inline docstring in `pandas/io/json/_json.py`,Critical,Todo,2026-01-26
+T-12677,P-05,Project Oracle: Churn Prediction,U-102,Priya Smith,Lead,Mobile viewport is wider than screen (horizontal scrolling) caused by footer elements on all pages,High,In Progress,2026-02-10
+T-92348,P-05,Project Oracle: Churn Prediction,U-121,Aarav Iyer,Junior,"DOC: Fix SA01,EX01 for pandas.DataFrame.from_arrow",Medium,Todo,2026-01-23
+T-40980,P-05,Project Oracle: Churn Prediction,U-142,Priya O'Connor,Senior,How to get information from merged cell in Google Sheets API,Critical,Done,2026-02-13
+T-70277,P-05,Project Oracle: Churn Prediction,U-140,Ji-won Cohen,Staff,feat: Add fix to pyarrow,Critical,Todo,2026-01-24
+T-50815,P-05,Project Oracle: Churn Prediction,U-106,Ji-won Kim,Junior,DOC: Clarify multiset behaviour of Index.union with duplicate valuesDoc index union multiset,Medium,Todo,2026-01-16
+T-93332,P-05,Project Oracle: Churn Prediction,U-147,Lars Smith,Lead,BUG: pd.Grouper does not retain PyArrow index dtype,Critical,Todo,2026-03-14
+T-13195,P-05,Project Oracle: Churn Prediction,U-127,Finn Rodriguez,Junior,Optimize API authentication in the microservices,Low,Todo,2026-03-12
+T-30124,P-09,Warehouse ETL Automation,U-148,Fatima Cohen,Junior,"BUG: `pd.array([float(""nan"")], str)` does not convert to `pd.NA`",Low,In Progress,2026-03-16
+T-56235,P-09,Warehouse ETL Automation,U-138,Noa Abbe,Mid-Level,STY: Add strict=True to zip() calls in pandas/tests/copy_view/test_fu…,Medium,Todo,2026-03-20
+T-57485,P-09,Warehouse ETL Automation,U-107,Priya Sato,Mid-Level,"Timedelta resolution differs between positional (value, unit) and keyword args",Low,In Progress,2026-01-13
+T-77878,P-09,Warehouse ETL Automation,U-140,Ji-won Cohen,Staff,Dockerize API authentication for mobile users,High,Todo,2026-01-22
+T-57541,P-09,Warehouse ETL Automation,U-136,Elena Kim,Lead,Deprecate payment gateway causing 500 errors,High,Todo,2026-01-13
+T-29392,P-09,Warehouse ETL Automation,U-113,Ji-won Gupta,Mid-Level,Implement memory leak for legacy support,Medium,In Progress,2026-02-28
+T-19048,P-09,Warehouse ETL Automation,U-149,Liam Silva,Staff,How to prevent layout interfering with an ongoing UIView animation,Critical,In Review,2026-03-15
+T-50759,P-09,Warehouse ETL Automation,U-142,Priya O'Connor,Senior,ENH: Add outlier detection and handling methods,High,In Review,2026-03-12
+T-76517,P-09,Warehouse ETL Automation,U-142,Priya O'Connor,Senior,DOC: Inline docstrings of a batch of functions in `pandas/core/groupby/groupby.py`,Critical,Todo,2026-02-22
+T-51544,P-09,Warehouse ETL Automation,U-108,Zoe Petrov,Junior,Pass and return the 3rd argument from argv,Low,Todo,2026-03-22
+T-39452,P-09,Warehouse ETL Automation,U-142,Priya O'Connor,Senior,CLN: Refactor repr logic in Expression._with_op,Critical,Todo,2026-01-10
+T-79738,P-09,Warehouse ETL Automation,U-140,Ji-won Cohen,Staff,CLN: Remove obsolete B905 per-file-ignores from pyproject.toml,Critical,In Review,2026-01-28
+T-66685,P-09,Warehouse ETL Automation,U-142,Priya O'Connor,Senior,DOC: Inline docstring in pandas/io/excel/_xlrd.py,High,In Progress,2026-03-22
+T-26029,P-09,Warehouse ETL Automation,U-142,Priya O'Connor,Senior,CoW: better chained assignment warning message for update() method,Critical,In Progress,2026-03-23
+T-35985,P-09,Warehouse ETL Automation,U-133,Lars Müller,Mid-Level,Azure DevOps upgrade failed over SQL Server cert [migrated],Medium,In Progress,2026-02-18
+T-77141,P-14,Real-time Personalization API,U-149,Liam Silva,Staff,DOC: Fix PR02 docstring validation errors for groupby.plot,High,In Review,2026-02-19
+T-82536,P-14,Real-time Personalization API,U-127,Finn Rodriguez,Junior,Sticky action column in paginated table turns rows below white when opening modal – z-index issue or stacking context?,Low,Todo,2026-01-13
+T-93576,P-14,Real-time Personalization API,U-136,Elena Kim,Lead,DEPR: Series.round and Series.clip on non-numeric and non-object dtypes,High,Todo,2026-01-19
+T-43623,P-14,Real-time Personalization API,U-127,Finn Rodriguez,Junior,Scale payment gateway causing 500 errors,Medium,In Progress,2026-01-13
+T-36376,P-14,Real-time Personalization API,U-142,Priya O'Connor,Senior,Improve RAGFlow RAG Search and chunk embeddings,High,Todo,2026-01-25
+T-45324,P-14,Real-time Personalization API,U-102,Priya Smith,Lead,Sticky action column in paginated table turns rows below white when opening modal – z-index issue or stacking context?,High,Todo,2026-02-14
+T-34523,P-14,Real-time Personalization API,U-149,Liam Silva,Staff,BUG: Fix str.cat losing StringDtype on index during alignment,High,Todo,2026-02-19
+T-46342,P-14,Real-time Personalization API,U-138,Noa Abbe,Mid-Level,Dockerize API authentication for mobile users,Low,In Progress,2026-02-28
+T-40918,P-14,Real-time Personalization API,U-102,Priya Smith,Lead,Need help Regarding to Path directory,High,Todo,2026-03-11
+T-11656,P-14,Real-time Personalization API,U-121,Aarav Iyer,Junior,NetBeans thinks every folder has already been used as a source package,Low,Todo,2026-01-19
+T-13453,P-14,Real-time Personalization API,U-140,Ji-won Cohen,Staff,BUG: `.loc` slicing fails on PyArrow-backed date index,Critical,In Progress,2026-02-13
+T-30642,P-14,Real-time Personalization API,U-149,Liam Silva,Staff,Add Decision Tree model for Iris classification,Critical,In Progress,2026-03-23
+T-73525,P-14,Real-time Personalization API,U-107,Priya Sato,Mid-Level,BUG: Arrow-backed duration/timestamp reductions return stdlib types for non-nanosecond units,Medium,Todo,2026-03-28
+T-85906,P-14,Real-time Personalization API,U-147,Lars Smith,Lead,Migrate CI/CD pipeline for mobile users,Critical,Todo,2026-01-11
+T-50250,P-14,Real-time Personalization API,U-149,Liam Silva,Staff,translation with twig on custom mvc - mo file not loading?,High,Todo,2026-02-18
+T-19487,P-24,Customer Segmentation Model,U-140,Ji-won Cohen,Staff,Launch drip campaign to boost conversion,Critical,Todo,2026-03-19
+T-74689,P-24,Customer Segmentation Model,U-147,Lars Smith,Lead,Optimize Q3 newsletter targeting SaaS founders,Critical,In Progress,2026-02-11
+T-66142,P-24,Customer Segmentation Model,U-140,Ji-won Cohen,Staff,Design Q3 newsletter targeting SaaS founders,Critical,In Progress,2026-02-22
+T-34520,P-24,Customer Segmentation Model,U-148,Fatima Cohen,Junior,Design drip campaign using new brand voice,Low,In Review,2026-01-25
+T-57608,P-24,Customer Segmentation Model,U-142,Priya O'Connor,Senior,Launch drip campaign for upcoming webinar,High,In Progress,2026-03-17
+T-29729,P-24,Customer Segmentation Model,U-106,Ji-won Kim,Junior,Optimize landing page copy to improve CTR,Low,Todo,2026-01-13
+T-58017,P-24,Customer Segmentation Model,U-107,Priya Sato,Mid-Level,Analyze drip campaign targeting SaaS founders,Low,Todo,2026-01-28
+T-14844,P-24,Customer Segmentation Model,U-102,Priya Smith,Lead,Launch onboarding email sequence to boost conversion,Critical,Todo,2026-01-22
+T-32798,P-24,Customer Segmentation Model,U-136,Elena Kim,Lead,Optimize onboarding email sequence to improve CTR,Critical,Todo,2026-01-12
+T-35926,P-24,Customer Segmentation Model,U-102,Priya Smith,Lead,Schedule onboarding email sequence to improve CTR,High,In Review,2026-03-21
+T-86380,P-24,Customer Segmentation Model,U-107,Priya Sato,Mid-Level,Optimize landing page copy to improve CTR,Low,In Review,2026-03-28
+T-82360,P-24,Customer Segmentation Model,U-140,Ji-won Cohen,Staff,Draft onboarding email sequence targeting SaaS founders,Critical,In Progress,2026-01-14
+T-62847,P-24,Customer Segmentation Model,U-133,Lars Müller,Mid-Level,Refresh drip campaign targeting SaaS founders,Low,Todo,2026-03-19
+T-79338,P-24,Customer Segmentation Model,U-136,Elena Kim,Lead,Optimize landing page copy to improve CTR,High,Todo,2026-02-19
+T-81035,P-24,Customer Segmentation Model,U-142,Priya O'Connor,Senior,Draft Q3 newsletter using new brand voice,Critical,Done,2026-01-21
+T-56061,P-10,Brand Refresh 2026,U-132,Liam Sato,Junior,Design landing page copy to boost conversion,Medium,In Review,2026-01-23
+T-21459,P-10,Brand Refresh 2026,U-129,Yuki Gupta,Mid-Level,Refresh drip campaign targeting SaaS founders,Medium,Todo,2026-01-27
+T-73838,P-10,Brand Refresh 2026,U-111,Sasha Wang,Senior,Analyze drip campaign targeting SaaS founders,Critical,In Progress,2026-02-17
+T-15116,P-10,Brand Refresh 2026,U-116,Yuki Tanaka,Senior,Draft onboarding email sequence targeting SaaS founders,Critical,Todo,2026-03-16
+T-86253,P-10,Brand Refresh 2026,U-143,Chen Sato,Mid-Level,A/B Test SEO keywords targeting SaaS founders,Medium,In Review,2026-03-25
+T-31362,P-10,Brand Refresh 2026,U-122,Finn Iyer,Senior,Draft landing page copy to improve CTR,High,Todo,2026-01-10
+T-96931,P-10,Brand Refresh 2026,U-143,Chen Sato,Mid-Level,Design Q3 newsletter targeting SaaS founders,Medium,Done,2026-01-28
+T-98214,P-10,Brand Refresh 2026,U-104,Noa Iyer,Senior,Analyze drip campaign using new brand voice,High,In Progress,2026-03-27
+T-34194,P-10,Brand Refresh 2026,U-131,Aarav Gupta,Senior,A/B Test drip campaign to improve CTR,High,In Progress,2026-02-22
+T-26957,P-10,Brand Refresh 2026,U-114,Mateo Sato,Mid-Level,Design drip campaign using new brand voice,Medium,Todo,2026-03-26
+T-35500,P-10,Brand Refresh 2026,U-110,Aarav O'Connor,Mid-Level,Schedule landing page copy using new brand voice,Low,In Progress,2026-03-17
+T-17063,P-10,Brand Refresh 2026,U-114,Mateo Sato,Mid-Level,A/B Test onboarding email sequence using new brand voice,Medium,Todo,2026-01-20
+T-22691,P-10,Brand Refresh 2026,U-132,Liam Sato,Junior,Refresh drip campaign targeting SaaS founders,Medium,In Review,2026-02-19
+T-71027,P-10,Brand Refresh 2026,U-145,Mateo Kim,Junior,A/B Test Q3 newsletter for upcoming webinar,Medium,Todo,2026-03-10
+T-46811,P-10,Brand Refresh 2026,U-110,Aarav O'Connor,Mid-Level,Schedule SEO keywords for holiday promotion,Medium,In Progress,2026-01-23
+T-64088,P-06,Project Prism: Design System v2,U-114,Mateo Sato,Mid-Level,Schedule SEO keywords for holiday promotion,Medium,Done,2026-03-22
+T-65157,P-06,Project Prism: Design System v2,U-146,Hiroshi Park,Lead,Optimize landing page copy to improve CTR,High,In Progress,2026-01-12
+T-84082,P-06,Project Prism: Design System v2,U-146,Hiroshi Park,Lead,Launch drip campaign for upcoming webinar,High,In Progress,2026-02-25
+T-11630,P-06,Project Prism: Design System v2,U-146,Hiroshi Park,Lead,Audit onboarding email sequence for holiday promotion,High,In Progress,2026-02-23
+T-68860,P-06,Project Prism: Design System v2,U-145,Mateo Kim,Junior,Launch drip campaign for upcoming webinar,Medium,Todo,2026-03-16
+T-42471,P-06,Project Prism: Design System v2,U-129,Yuki Gupta,Mid-Level,Analyze drip campaign targeting SaaS founders,Medium,In Progress,2026-02-15
+T-69516,P-06,Project Prism: Design System v2,U-111,Sasha Wang,Senior,Audit onboarding email sequence for holiday promotion,Critical,In Review,2026-01-25
+T-31994,P-06,Project Prism: Design System v2,U-122,Finn Iyer,Senior,Draft drip campaign for upcoming webinar,High,Todo,2026-02-26
+T-86058,P-06,Project Prism: Design System v2,U-111,Sasha Wang,Senior,Refresh competitor backlink profile to improve CTR,Critical,In Review,2026-01-20
+T-16792,P-06,Project Prism: Design System v2,U-122,Finn Iyer,Senior,Launch SEO keywords to boost conversion,High,Todo,2026-01-24
+T-73074,P-06,Project Prism: Design System v2,U-131,Aarav Gupta,Senior,Design Facebook ad creatives targeting SaaS founders,High,In Progress,2026-02-13
+T-83050,P-06,Project Prism: Design System v2,U-131,Aarav Gupta,Senior,Schedule Q3 newsletter for upcoming webinar,Critical,Done,2026-01-19
+T-31041,P-06,Project Prism: Design System v2,U-144,Noa Gupta,Junior,A/B Test competitor backlink profile to boost conversion,Medium,Todo,2026-02-21
+T-41287,P-06,Project Prism: Design System v2,U-111,Sasha Wang,Senior,Launch drip campaign to boost conversion,Critical,Todo,2026-01-17
+T-59233,P-06,Project Prism: Design System v2,U-122,Finn Iyer,Senior,Schedule Facebook ad creatives targeting SaaS founders,High,Todo,2026-01-27
+T-33587,P-15,Podcast Series Production,U-129,Yuki Gupta,Mid-Level,Schedule landing page copy using new brand voice,Low,In Progress,2026-02-12
+T-20187,P-15,Podcast Series Production,U-144,Noa Gupta,Junior,Refresh drip campaign targeting SaaS founders,Medium,Todo,2026-01-16
+T-33235,P-15,Podcast Series Production,U-132,Liam Sato,Junior,Launch drip campaign for upcoming webinar,Medium,In Review,2026-01-17
+T-14985,P-15,Podcast Series Production,U-145,Mateo Kim,Junior,Launch drip campaign to boost conversion,Medium,In Progress,2026-01-10
+T-74480,P-15,Podcast Series Production,U-132,Liam Sato,Junior,Design drip campaign using new brand voice,Medium,Done,2026-03-23
+T-95013,P-15,Podcast Series Production,U-111,Sasha Wang,Senior,Optimize onboarding email sequence to improve CTR,High,In Progress,2026-03-28
+T-38870,P-15,Podcast Series Production,U-146,Hiroshi Park,Lead,Draft landing page copy to improve CTR,Critical,In Progress,2026-01-12
+T-10885,P-15,Podcast Series Production,U-132,Liam Sato,Junior,Refresh Q3 newsletter for holiday promotion,Low,In Progress,2026-03-14
+T-46033,P-15,Podcast Series Production,U-122,Finn Iyer,Senior,Design landing page copy to boost conversion,Critical,In Review,2026-03-14
+T-21639,P-15,Podcast Series Production,U-129,Yuki Gupta,Mid-Level,Audit drip campaign targeting SaaS founders,Low,Todo,2026-01-16
+T-18838,P-15,Podcast Series Production,U-143,Chen Sato,Mid-Level,Schedule Q3 newsletter for upcoming webinar,Medium,Todo,2026-02-21
+T-13419,P-15,Podcast Series Production,U-132,Liam Sato,Junior,Design Facebook ad creatives to improve CTR,Medium,In Review,2026-03-20
+T-58041,P-15,Podcast Series Production,U-111,Sasha Wang,Senior,Analyze landing page copy for upcoming webinar,Critical,In Progress,2026-01-12
+T-69139,P-15,Podcast Series Production,U-145,Mateo Kim,Junior,Optimize Q3 newsletter targeting SaaS founders,Low,In Review,2026-01-16
+T-15504,P-15,Podcast Series Production,U-104,Noa Iyer,Senior,Launch drip campaign to boost conversion,High,Done,2026-02-26
+T-70564,P-25,Annual Impact Report,U-110,Aarav O'Connor,Mid-Level,A/B Test onboarding email sequence using new brand voice,Low,In Review,2026-01-14
+T-46265,P-25,Annual Impact Report,U-101,Amara O'Connor,Junior,Refresh drip campaign targeting SaaS founders,Low,Done,2026-01-28
+T-51714,P-25,Annual Impact Report,U-143,Chen Sato,Mid-Level,Draft Q3 newsletter using new brand voice,Low,Todo,2026-03-11
+T-86575,P-25,Annual Impact Report,U-132,Liam Sato,Junior,A/B Test Facebook ad creatives for upcoming webinar,Medium,In Review,2026-01-10
+T-34911,P-25,Annual Impact Report,U-131,Aarav Gupta,Senior,Analyze drip campaign targeting SaaS founders,Critical,Done,2026-02-25
+T-28824,P-25,Annual Impact Report,U-114,Mateo Sato,Mid-Level,Draft drip campaign for upcoming webinar,Medium,In Progress,2026-01-19
+T-30708,P-25,Annual Impact Report,U-131,Aarav Gupta,Senior,Refresh Q3 newsletter for holiday promotion,Critical,In Progress,2026-03-19
+T-26648,P-25,Annual Impact Report,U-146,Hiroshi Park,Lead,Draft drip campaign using new brand voice,High,Done,2026-01-20
+T-63744,P-25,Annual Impact Report,U-132,Liam Sato,Junior,Launch Q3 newsletter using new brand voice,Medium,Done,2026-02-18
+T-16426,P-25,Annual Impact Report,U-146,Hiroshi Park,Lead,Refresh landing page copy targeting SaaS founders,Critical,In Progress,2026-03-23
+T-77728,P-25,Annual Impact Report,U-110,Aarav O'Connor,Mid-Level,Refresh competitor backlink profile to improve CTR,Medium,In Progress,2026-01-25
+T-33587,P-25,Annual Impact Report,U-111,Sasha Wang,Senior,Optimize onboarding email sequence to improve CTR,Critical,In Progress,2026-03-12
+T-92074,P-25,Annual Impact Report,U-111,Sasha Wang,Senior,Design Facebook ad creatives targeting SaaS founders,High,In Progress,2026-03-24
+T-23446,P-25,Annual Impact Report,U-101,Amara O'Connor,Junior,Analyze drip campaign targeting SaaS founders,Low,In Progress,2026-02-11
+T-14910,P-25,Annual Impact Report,U-144,Noa Gupta,Junior,Optimize Q3 newsletter targeting SaaS founders,Low,Todo,2026-01-18
+T-63533,P-16,Employee Onboarding Revamp,U-112,Priya Petrov,Junior,Draft SEO keywords for holiday promotion,Low,Todo,2026-02-18
+T-81183,P-16,Employee Onboarding Revamp,U-123,Hiroshi Johansson,Staff,Refresh drip campaign for upcoming webinar,High,In Review,2026-01-24
+T-44980,P-16,Employee Onboarding Revamp,U-141,Mateo Silva,Senior,A/B Test competitor backlink profile to boost conversion,Critical,In Progress,2026-01-21
+T-34269,P-16,Employee Onboarding Revamp,U-112,Priya Petrov,Junior,Design landing page copy to boost conversion,Medium,Todo,2026-03-19
+T-65092,P-16,Employee Onboarding Revamp,U-124,Finn Silva,Lead,Optimize drip campaign using new brand voice,High,Todo,2026-01-11
+T-60996,P-16,Employee Onboarding Revamp,U-128,Liam Cohen,Staff,Schedule Facebook ad creatives using new brand voice,High,Todo,2026-03-27
+T-59359,P-16,Employee Onboarding Revamp,U-130,Elena Rodriguez,Junior,Launch drip campaign to boost conversion,Low,Done,2026-03-17
+T-68541,P-16,Employee Onboarding Revamp,U-130,Elena Rodriguez,Junior,Design landing page copy to boost conversion,Medium,In Review,2026-01-18
+T-21532,P-16,Employee Onboarding Revamp,U-125,Aarav Gupta,Senior,Draft SEO keywords for holiday promotion,Critical,Todo,2026-01-28
+T-33247,P-16,Employee Onboarding Revamp,U-112,Priya Petrov,Junior,Schedule landing page copy using new brand voice,Medium,Done,2026-03-17
+T-35751,P-16,Employee Onboarding Revamp,U-123,Hiroshi Johansson,Staff,Launch drip campaign for upcoming webinar,Critical,Done,2026-01-18
+T-52366,P-16,Employee Onboarding Revamp,U-141,Mateo Silva,Senior,Draft onboarding email sequence targeting SaaS founders,Critical,In Progress,2026-01-14
+T-14180,P-16,Employee Onboarding Revamp,U-134,Finn Müller,Junior,Design SEO keywords to boost conversion,Low,In Progress,2026-03-15
+T-37686,P-16,Employee Onboarding Revamp,U-112,Priya Petrov,Junior,Optimize Q3 newsletter targeting SaaS founders,Low,Done,2026-03-14
+T-32246,P-16,Employee Onboarding Revamp,U-134,Finn Müller,Junior,A/B Test drip campaign to improve CTR,Low,Todo,2026-01-26
+T-29013,P-17,SOC2 Compliance Readiness,U-112,Priya Petrov,Junior,Automated Parent & Child In Freshdesk,Medium,Todo,2026-02-13
+T-91447,P-17,SOC2 Compliance Readiness,U-134,Finn Müller,Junior,Detecting Vibrations from Internal Vibration Motor Using Accelerometer,Medium,In Progress,2026-02-13
+T-73190,P-17,SOC2 Compliance Readiness,U-128,Liam Cohen,Staff,Excel 2021 LET Merge Filter Criteria > 1 Column? Advanced criteria with exceptions: Date 1 - Date 2 to handle close Non Unique,Critical,In Review,2026-03-26
+T-58571,P-17,SOC2 Compliance Readiness,U-112,Priya Petrov,Junior,FFmpeg export outputs only first input video while React preview shows multiple clips (concat & split-screen case),Medium,In Progress,2026-01-28
+T-29602,P-17,SOC2 Compliance Readiness,U-134,Finn Müller,Junior,STY: Add strict=True to zip() calls in pandas/tests/copy_view/test_fu…,Medium,Todo,2026-03-25
+T-21285,P-17,SOC2 Compliance Readiness,U-124,Finn Silva,Lead,Oracle - Refactor stateful loop based approach to set based,High,In Review,2026-02-11
+T-84874,P-17,SOC2 Compliance Readiness,U-130,Elena Rodriguez,Junior,Implement database schema before next release,Medium,Todo,2026-01-17
+T-32774,P-17,SOC2 Compliance Readiness,U-130,Elena Rodriguez,Junior,[pre-commit.ci] pre-commit autoupdate,Low,In Progress,2026-02-21
+T-12197,P-17,SOC2 Compliance Readiness,U-128,Liam Cohen,Staff,"DOC: Fix SA01,ES01,PR07 for pandas.util.hash_pandas_object",High,In Progress,2026-03-25
+T-91479,P-17,SOC2 Compliance Readiness,U-112,Priya Petrov,Junior,Need help Regarding to Path directory,Low,In Progress,2026-02-22
+T-93217,P-17,SOC2 Compliance Readiness,U-112,Priya Petrov,Junior,Implement payment gateway before next release,Low,Todo,2026-01-23
+T-80643,P-17,SOC2 Compliance Readiness,U-125,Aarav Gupta,Senior,"Timedelta resolution differs between positional (value, unit) and keyword args",Critical,In Review,2026-01-16
+T-33329,P-17,SOC2 Compliance Readiness,U-134,Finn Müller,Junior,DOC: improve '10 minutes to pandas' Merge section with join example,Medium,In Progress,2026-02-28
+T-14063,P-17,SOC2 Compliance Readiness,U-130,Elena Rodriguez,Junior,-rpath-link=dir not able to locate the shared library,Medium,In Review,2026-03-23
+T-64793,P-17,SOC2 Compliance Readiness,U-112,Priya Petrov,Junior,Scale payment gateway in the microservices,Medium,In Review,2026-03-25
+T-66940,P-18,Global Expansion: LATAM Market,U-137,Zoe Petrov,Senior,Audit onboarding email sequence for holiday promotion,Critical,Todo,2026-03-18
+T-39937,P-18,Global Expansion: LATAM Market,U-117,Sasha Gupta,Senior,Optimize Q3 newsletter targeting SaaS founders,Critical,Done,2026-01-24
+T-54108,P-18,Global Expansion: LATAM Market,U-109,Chen Petrov,Lead,Draft drip campaign using new brand voice,High,In Progress,2026-03-28
+T-52345,P-18,Global Expansion: LATAM Market,U-115,Zoe O'Connor,Mid-Level,Analyze Facebook ad creatives for holiday promotion,Low,Todo,2026-02-21
+T-50983,P-18,Global Expansion: LATAM Market,U-117,Sasha Gupta,Senior,Design drip campaign using new brand voice,Critical,Todo,2026-03-20
+T-19053,P-18,Global Expansion: LATAM Market,U-109,Chen Petrov,Lead,Refresh Q3 newsletter for holiday promotion,High,Todo,2026-02-26
+T-48001,P-18,Global Expansion: LATAM Market,U-115,Zoe O'Connor,Mid-Level,Launch Q3 newsletter using new brand voice,Low,Todo,2026-01-24
+T-93416,P-18,Global Expansion: LATAM Market,U-115,Zoe O'Connor,Mid-Level,Schedule Facebook ad creatives targeting SaaS founders,Low,In Progress,2026-02-19
+T-61094,P-18,Global Expansion: LATAM Market,U-115,Zoe O'Connor,Mid-Level,A/B Test SEO keywords targeting SaaS founders,Low,In Review,2026-02-27
+T-78671,P-18,Global Expansion: LATAM Market,U-115,Zoe O'Connor,Mid-Level,Draft SEO keywords for holiday promotion,Medium,In Progress,2026-01-24
+T-97624,P-18,Global Expansion: LATAM Market,U-150,Priya Abbe,Senior,Refresh drip campaign targeting SaaS founders,Critical,Todo,2026-01-13
+T-83225,P-18,Global Expansion: LATAM Market,U-115,Zoe O'Connor,Mid-Level,Refresh landing page copy targeting SaaS founders,Medium,Todo,2026-02-12
+T-84948,P-18,Global Expansion: LATAM Market,U-137,Zoe Petrov,Senior,Analyze drip campaign using new brand voice,Critical,In Review,2026-01-18
+T-44732,P-18,Global Expansion: LATAM Market,U-120,Yuki Tanaka,Staff,Optimize Q3 newsletter targeting SaaS founders,Critical,In Review,2026-03-17
+T-33188,P-18,Global Expansion: LATAM Market,U-115,Zoe O'Connor,Mid-Level,A/B Test Q3 newsletter for upcoming webinar,Low,In Review,2026-02-17
+T-25855,P-19,Developer Experience (DevEx) Survey,U-119,Finn Iyer,Junior,"DOC: Fix SA01,ES01,PR07 for pandas.util.hash_pandas_object",Medium,Done,2026-03-10
+T-21256,P-19,Developer Experience (DevEx) Survey,U-105,Finn Rodriguez,Staff,CI: Fix docs build env variables,High,Todo,2026-01-15
+T-68537,P-19,Developer Experience (DevEx) Survey,U-135,Liam Park,Senior,Scale payment gateway in the microservices,High,Todo,2026-01-27
+T-41219,P-19,Developer Experience (DevEx) Survey,U-119,Finn Iyer,Junior,ENH: Add outlier detection and handling methods,Medium,In Review,2026-03-12
+T-34115,P-19,Developer Experience (DevEx) Survey,U-139,Aarav Tanaka,Junior,DOC: Inline docstring in `pandas/io/common.py`,Low,Todo,2026-03-23
+T-61569,P-19,Developer Experience (DevEx) Survey,U-105,Finn Rodriguez,Staff,ENH: Add month accessor support for PyArrow-backed DatetimeIndex,High,In Progress,2026-01-25
+T-79554,P-19,Developer Experience (DevEx) Survey,U-139,Aarav Tanaka,Junior,EF Core database-first upgrade dilemma,Medium,Todo,2026-02-19
+T-59019,P-19,Developer Experience (DevEx) Survey,U-139,Aarav Tanaka,Junior,BUG: comparison of categoricals with NA,Low,In Progress,2026-03-21
+T-66854,P-19,Developer Experience (DevEx) Survey,U-119,Finn Iyer,Junior,How do I recover deleted Postman collections that aren't in the trash? [closed],Low,In Progress,2026-03-21
+T-37015,P-19,Developer Experience (DevEx) Survey,U-139,Aarav Tanaka,Junior,How to save data in BigQuery,Medium,In Review,2026-02-27
+T-41403,P-19,Developer Experience (DevEx) Survey,U-105,Finn Rodriguez,Staff,Dockerize API authentication in the microservices,High,In Progress,2026-01-28
+T-40803,P-19,Developer Experience (DevEx) Survey,U-119,Finn Iyer,Junior,"DOC: Fix SA01,EX01 for pandas.Series.from_arrow",Medium,Todo,2026-03-19
+T-31653,P-19,Developer Experience (DevEx) Survey,U-126,Liam Johansson,Lead,How to see stashes in VS Code?,Critical,In Review,2026-03-19
+T-21047,P-19,Developer Experience (DevEx) Survey,U-103,Yuki Park,Mid-Level,"Revert ""DOC: allow rebuilding versioned docs through workflow_dispatch""",Low,Todo,2026-03-17
+T-20411,P-19,Developer Experience (DevEx) Survey,U-119,Finn Iyer,Junior,How to collect DATASET for UNITREE G1 DOF 29 using HOLISTIC MOTION capture?,Medium,Todo,2026-03-24
+T-39078,P-20,Mobile App UI Audit,U-114,Mateo Sato,Mid-Level,Draft landing page copy to improve CTR,Medium,In Progress,2026-03-20
+T-37893,P-20,Mobile App UI Audit,U-146,Hiroshi Park,Lead,Schedule onboarding email sequence to improve CTR,Critical,Todo,2026-02-16
+T-59104,P-20,Mobile App UI Audit,U-104,Noa Iyer,Senior,Optimize drip campaign using new brand voice,High,Todo,2026-03-17
+T-38815,P-20,Mobile App UI Audit,U-116,Yuki Tanaka,Senior,Draft onboarding email sequence targeting SaaS founders,High,In Progress,2026-03-17
+T-29135,P-20,Mobile App UI Audit,U-104,Noa Iyer,Senior,Draft Q3 newsletter using new brand voice,Critical,Done,2026-03-25
+T-92641,P-20,Mobile App UI Audit,U-132,Liam Sato,Junior,Optimize onboarding email sequence to improve CTR,Low,In Review,2026-01-17
+T-64497,P-20,Mobile App UI Audit,U-122,Finn Iyer,Senior,Design Q3 newsletter targeting SaaS founders,Critical,In Progress,2026-03-22
+T-81925,P-20,Mobile App UI Audit,U-129,Yuki Gupta,Mid-Level,Audit onboarding email sequence for holiday promotion,Low,In Review,2026-02-10
+T-53594,P-20,Mobile App UI Audit,U-131,Aarav Gupta,Senior,Draft SEO keywords for holiday promotion,Critical,Todo,2026-02-27
+T-47301,P-20,Mobile App UI Audit,U-146,Hiroshi Park,Lead,Design competitor backlink profile targeting SaaS founders,High,Todo,2026-02-15
+T-68968,P-20,Mobile App UI Audit,U-116,Yuki Tanaka,Senior,Launch SEO keywords for holiday promotion,Critical,In Progress,2026-02-25
+T-14506,P-20,Mobile App UI Audit,U-132,Liam Sato,Junior,Launch drip campaign for upcoming webinar,Low,Todo,2026-02-25
+T-97519,P-20,Mobile App UI Audit,U-101,Amara O'Connor,Junior,Refresh landing page copy targeting SaaS founders,Medium,In Progress,2026-03-18
+T-30344,P-20,Mobile App UI Audit,U-129,Yuki Gupta,Mid-Level,Refresh Q3 newsletter for holiday promotion,Low,Todo,2026-01-25
+T-10450,P-20,Mobile App UI Audit,U-101,Amara O'Connor,Junior,A/B Test competitor backlink profile to boost conversion,Medium,In Progress,2026-03-19

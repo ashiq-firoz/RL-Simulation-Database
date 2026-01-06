@@ -1,0 +1,101 @@
+Source,Title,URL
+GitHub,Fix GL08 for pandas.tseries.offsets.*.normalize,https://github.com/pandas-dev/pandas/pull/63585
+GitHub,"DOC: Fix SA01,ES01 for pandas.tseries.offsets.Day.freqstr",https://github.com/pandas-dev/pandas/pull/63584
+GitHub,"DOC: Fix SA01,EX01 for pandas.Series.from_arrow",https://github.com/pandas-dev/pandas/pull/63583
+GitHub,Set up ty in CI,https://github.com/pandas-dev/pandas/pull/63582
+GitHub,BUG: iloc[0] raises ValueError with SparseArray column and numpy array column,https://github.com/pandas-dev/pandas/issues/63581
+GitHub,DOC: fix offline documentation search behavior,https://github.com/pandas-dev/pandas/pull/63580
+GitHub,DOC: Inline docstrings for StringArray methods in string_.py,https://github.com/pandas-dev/pandas/pull/63579
+GitHub,CLN: Inline .clang-config in pre-commit-config,https://github.com/pandas-dev/pandas/pull/63578
+GitHub,[pre-commit.ci] pre-commit autoupdate,https://github.com/pandas-dev/pandas/pull/63577
+GitHub,BUG: setitem with list of NaT,https://github.com/pandas-dev/pandas/pull/63576
+GitHub,"Timedelta resolution differs between positional (value, unit) and keyword args",https://github.com/pandas-dev/pandas/pull/63575
+GitHub,BUG: pd.read_sql returns fewer rows than manual cursor execution for the same query and connection,https://github.com/pandas-dev/pandas/issues/63574
+GitHub,PERF: Use Arrow native cast in as_unit,https://github.com/pandas-dev/pandas/pull/63573
+GitHub,"BUG: pd.read_json fails with ""Value is too big!"" on large integers, while json.load + DataFrame works",https://github.com/pandas-dev/pandas/issues/63572
+GitHub,DOC: inline docstring in CalamineReader,https://github.com/pandas-dev/pandas/pull/63571
+GitHub,CI: Fix docs build env variables,https://github.com/pandas-dev/pandas/pull/63570
+GitHub,"Revert ""DOC: allow rebuilding versioned docs through workflow_dispatch""",https://github.com/pandas-dev/pandas/pull/63569
+GitHub,Add Decision Tree model for Iris classification,https://github.com/pandas-dev/pandas/pull/63568
+GitHub,"BUG: `pd.array([float(""nan"")], str)` does not convert to `pd.NA`",https://github.com/pandas-dev/pandas/issues/63567
+GitHub,DOC: Inline docstring in pandas/io/excel/_xlrd.py,https://github.com/pandas-dev/pandas/pull/63566
+GitHub,DOC: Inline docstring in pandas/io/sas/sasreader.py,https://github.com/pandas-dev/pandas/pull/63565
+GitHub,DOC: Remove @doc decorator from pandas/io/formats/xml.py,https://github.com/pandas-dev/pandas/pull/63564
+GitHub,DEPR: Series.round and Series.clip on non-numeric dtypes,https://github.com/pandas-dev/pandas/pull/63563
+GitHub,ENH: Add month accessor support for PyArrow-backed DatetimeIndex,https://github.com/pandas-dev/pandas/pull/63562
+GitHub,ENH: Add outlier detection and handling methods,https://github.com/pandas-dev/pandas/pull/63561
+GitHub,BUG: Arrow-backed duration/timestamp reductions return stdlib types for non-nanosecond units,https://github.com/pandas-dev/pandas/pull/63560
+GitHub,DEPR: Series.round and Series.clip on non-numeric and non-object dtypes,https://github.com/pandas-dev/pandas/issues/63559
+GitHub,DOC: Fix typing of copy argument in astype,https://github.com/pandas-dev/pandas/pull/63558
+GitHub,ENH: Add .center() method to DataFrame/Series for inspecting middle rows.,https://github.com/pandas-dev/pandas/issues/63557
+GitHub,DOC: Fix SA01 for pandas.StringDtype.na_value,https://github.com/pandas-dev/pandas/pull/63556
+GitHub,DOC: Fix SA01 for pandas.StringDtype.na_value,https://github.com/pandas-dev/pandas/issues/63555
+GitHub,"DOC: Fix SA01,ES01,PR07 for pandas.util.hash_pandas_object",https://github.com/pandas-dev/pandas/pull/63554
+GitHub,"DOC: Fix SA01,ES01,PR07 for pandas.util.hash_pandas_object",https://github.com/pandas-dev/pandas/issues/63553
+GitHub,DOC: Inline docstrings of a batch of functions in `pandas/core/generic.py`,https://github.com/pandas-dev/pandas/pull/63552
+GitHub,ENH: Decay-weighted rolling aggregations with defined behavior for duplicate timestamps,https://github.com/pandas-dev/pandas/issues/63551
+GitHub,TST: Added test to check replacing a series with mixed types with None,https://github.com/pandas-dev/pandas/pull/63549
+GitHub,TST: Add test for DatetimeIndex.is_year_start with business-day frequencies greater than 1B,https://github.com/pandas-dev/pandas/pull/63548
+GitHub,DOC: Add See Also links to User Guide in API reference,https://github.com/pandas-dev/pandas/pull/63547
+GitHub,CLN: Replace else-if with elif in pandas/core (PLR5501),https://github.com/pandas-dev/pandas/pull/63546
+GitHub,DOC: improve '10 minutes to pandas' Merge section with join example,https://github.com/pandas-dev/pandas/pull/63545
+GitHub,Double-Double test implementation,https://github.com/pandas-dev/pandas/pull/63544
+GitHub,DOC: Inline docstrings of a batch of functions in `pandas/core/groupby/groupby.py`,https://github.com/pandas-dev/pandas/pull/63543
+GitHub,CLN: Add IndentPPDirectives AfterHash to clang-format config,https://github.com/pandas-dev/pandas/pull/63542
+GitHub,"DOC: Fix SA01,EX01 for pandas.DataFrame.from_arrow",https://github.com/pandas-dev/pandas/pull/63541
+GitHub,"DOC: Fix SA01,EX01 for pandas.DataFrame.from_arrow",https://github.com/pandas-dev/pandas/issues/63540
+GitHub,DOC: Fix PR02 docstring validation errors for groupby.plot,https://github.com/pandas-dev/pandas/pull/63539
+GitHub,Update license year to 2026,https://github.com/pandas-dev/pandas/pull/63538
+GitHub,DOC: Inline docstring in `pandas/io/json/_json.py`,https://github.com/pandas-dev/pandas/pull/63537
+GitHub,DOC: Inline docstring in `pandas/io/formats/excel.py`,https://github.com/pandas-dev/pandas/pull/63536
+GitHub,DOC: Inline docstring in `pandas/io/common.py`,https://github.com/pandas-dev/pandas/pull/63535
+GitHub,DOC: Inline docstring in `pandas/io/formats/xml.py`,https://github.com/pandas-dev/pandas/pull/63534
+GitHub,API: Timedelta/to_timedelta with round-floats preserve unit,https://github.com/pandas-dev/pandas/pull/63533
+GitHub,BUG: Avoid precision loss for large integral Decimal values in read_sql with coerce_float=True ,https://github.com/pandas-dev/pandas/pull/63532
+GitHub,BUG: Fix unstack(sort=False) reordering rows (#62816),https://github.com/pandas-dev/pandas/pull/63531
+GitHub,ENH: Add opt-in diagnostics report,https://github.com/pandas-dev/pandas/pull/63530
+GitHub,feat: Add fix to pyarrow,https://github.com/pandas-dev/pandas/pull/63529
+GitHub,DOC: Inline docstrings for argmax and argmin in base.py,https://github.com/pandas-dev/pandas/pull/63528
+GitHub,BUG: PyArrow-backed datetime index missing numpy-like attributes,https://github.com/pandas-dev/pandas/issues/63527
+GitHub,BUG: `.loc` slicing fails on PyArrow-backed date index,https://github.com/pandas-dev/pandas/issues/63526
+GitHub,CLN: Add explicit stacklevel to warnings.warn in scripts/run_stubtest.py,https://github.com/pandas-dev/pandas/pull/63525
+GitHub,DOC: clarify note about optimized indexing methods,https://github.com/pandas-dev/pandas/pull/63524
+GitHub,CLN: Remove obsolete B905 per-file-ignores from pyproject.toml,https://github.com/pandas-dev/pandas/pull/63523
+GitHub,BUG: pd.Grouper does not retain PyArrow index dtype,https://github.com/pandas-dev/pandas/pull/63522
+GitHub,BUG: comparison of categoricals with NA,https://github.com/pandas-dev/pandas/issues/63521
+GitHub,DOC: Inline docstring in `pandas/io/formats/style.py`,https://github.com/pandas-dev/pandas/pull/63520
+GitHub,DOC: Correct grammar usage regarding a/an usage,https://github.com/pandas-dev/pandas/pull/63519
+GitHub,BUG: pd.Grouper converts PyArrow timestamp to numpy datetime64,https://github.com/pandas-dev/pandas/issues/63518
+GitHub,CLN: Remove dead code in `NumericDtype.__from_arrow__`,https://github.com/pandas-dev/pandas/pull/63517
+GitHub,DOC: Inline docstring for str.rpartition,https://github.com/pandas-dev/pandas/pull/63516
+GitHub,DOC: Inline docstring for str.partition,https://github.com/pandas-dev/pandas/pull/63515
+GitHub,"BUG: Fix get_level_values for boolean, NA-like, and integer index names",https://github.com/pandas-dev/pandas/pull/63514
+GitHub,ENH: Add strict=True to zip() calls in pandas/core/reshape/,https://github.com/pandas-dev/pandas/pull/63513
+GitHub,API: Add reduction methods to pandas EAs,https://github.com/pandas-dev/pandas/pull/63512
+GitHub,ENH: first-class UUID support,https://github.com/pandas-dev/pandas/issues/63511
+GitHub,DOC: simplify Series.sum examples to show scalar results,https://github.com/pandas-dev/pandas/pull/63510
+GitHub,BUG: handle negative overflow in Period conversion from timestamp,https://github.com/pandas-dev/pandas/pull/63509
+GitHub,BUG: Fix skipna=True to skip NaN values in FloatingArray data,https://github.com/pandas-dev/pandas/pull/63508
+GitHub,ERR: Validate numeric_only accepts only bool in reduction operations,https://github.com/pandas-dev/pandas/pull/63507
+GitHub,STY: Add strict parameter to zip() calls in core/reshape/reshape.py,https://github.com/pandas-dev/pandas/pull/63506
+GitHub,DOC : document pyarrow vs python string trade-offs,https://github.com/pandas-dev/pandas/pull/63505
+GitHub,DOC: allow rebuilding versioned docs through workflow_dispatch,https://github.com/pandas-dev/pandas/pull/63504
+GitHub,BUG: Fix for Issue 53028 - Fix DictCursor returning column names,https://github.com/pandas-dev/pandas/pull/63503
+GitHub,CLN: Refactor repr logic in Expression._with_op,https://github.com/pandas-dev/pandas/pull/63502
+GitHub,DOC: update dropdown logic to use 'dev' version for commits after the rc,https://github.com/pandas-dev/pandas/pull/63501
+GitHub,CoW: better chained assignment warning message for update() method,https://github.com/pandas-dev/pandas/pull/63500
+GitHub,BUG/API: Series constructor to honor unit of specified timedelta64 dtype,https://github.com/pandas-dev/pandas/pull/63499
+GitHub,DOC: add myself as CODEOWNER for Getting Started and the User Guide,https://github.com/pandas-dev/pandas/pull/63498
+GitHub,DOC: Clarify multiset behaviour of Index.union with duplicate valuesDoc index union multiset,https://github.com/pandas-dev/pandas/pull/63497
+GitHub,DEP: Require NumPy 2 on Python>=3.14,https://github.com/pandas-dev/pandas/pull/63496
+GitHub,Modern pandas extension,https://github.com/pandas-dev/pandas/pull/63495
+GitHub,CLN: Create temporary HDF5 file path and HDFStore for pytables tests,https://github.com/pandas-dev/pandas/pull/63492
+GitHub,BUG: pandas_dtype always raise TypeError for invalid dtype,https://github.com/pandas-dev/pandas/pull/63491
+GitHub,STY: Add strict=True to zip() calls in pandas/tests/copy_view/test_fu…,https://github.com/pandas-dev/pandas/pull/63490
+GitHub,ENH: drop function should take kwarg rows,https://github.com/pandas-dev/pandas/issues/63489
+GitHub,DOC: Fix meta_prefix and record_prefix parameter descriptions in json_normalize,https://github.com/pandas-dev/pandas/pull/63488
+GitHub,TST:Replacing all ensure_cleans with pytest fixture in pandas/_testing/_io.py and removing the definition of ensure_clean.,https://github.com/pandas-dev/pandas/pull/63487
+GitHub,DOC: clarify description of GroupBy.groups attribute,https://github.com/pandas-dev/pandas/pull/63486
+GitHub,BUG: Fix str.cat losing StringDtype on index during alignment,https://github.com/pandas-dev/pandas/pull/63485
+GitHub,BUG: pd.api.types.pandas_dtype raise different exception with numpy=2.4.0,https://github.com/pandas-dev/pandas/issues/63484
+GitHub,DOC: Remove 'Show source' button from doc pages for clarity,https://github.com/pandas-dev/pandas/pull/63483

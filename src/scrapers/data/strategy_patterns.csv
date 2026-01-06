@@ -1,0 +1,101 @@
+Category,Task Pattern
+Engineering,Migrate CI/CD pipeline for mobile users
+Engineering,Migrate Redis caching to reduce latency
+Engineering,Migrate CI/CD pipeline for legacy support
+Engineering,Implement memory leak for legacy support
+Engineering,Dockerize API authentication for legacy support
+Engineering,Dockerize database schema for legacy support
+Engineering,Migrate CI/CD pipeline for legacy support
+Engineering,Dockerize API authentication in the microservices
+Engineering,Dockerize API authentication for mobile users
+Engineering,Fix payment gateway for mobile users
+Engineering,Fix database schema for mobile users
+Engineering,Refactor CI/CD pipeline causing 500 errors
+Engineering,Scale memory leak causing 500 errors
+Engineering,Deprecate payment gateway causing 500 errors
+Engineering,Deprecate Redis caching before next release
+Engineering,Scale payment gateway causing 500 errors
+Engineering,Fix CI/CD pipeline to reduce latency
+Engineering,Scale payment gateway in the microservices
+Engineering,Fix Redis caching in the microservices
+Engineering,Scale OAuth flow for mobile users
+Engineering,Implement memory leak for mobile users
+Engineering,Implement Redis caching to reduce latency
+Engineering,Scale Redis caching for mobile users
+Engineering,Migrate Redis caching for legacy support
+Engineering,Deprecate Redis caching to reduce latency
+Engineering,Migrate Redis caching before next release
+Engineering,Dockerize payment gateway in the microservices
+Engineering,Implement payment gateway before next release
+Engineering,Scale OAuth flow for mobile users
+Engineering,Refactor database schema to reduce latency
+Engineering,Dockerize payment gateway in the microservices
+Engineering,Refactor Redis caching before next release
+Engineering,Fix OAuth flow causing 500 errors
+Engineering,Implement OAuth flow for mobile users
+Engineering,Debug Redis caching in the microservices
+Engineering,Deprecate database schema for legacy support
+Engineering,Scale memory leak before next release
+Engineering,Optimize API authentication in the microservices
+Engineering,Implement React components for mobile users
+Engineering,Deprecate OAuth flow in the microservices
+Engineering,Fix payment gateway before next release
+Engineering,Optimize payment gateway for legacy support
+Engineering,Fix database schema causing 500 errors
+Engineering,Scale database schema in the microservices
+Engineering,Debug payment gateway for mobile users
+Engineering,Implement database schema before next release
+Engineering,Dockerize CI/CD pipeline causing 500 errors
+Engineering,Deprecate memory leak before next release
+Engineering,Deprecate API authentication causing 500 errors
+Engineering,Optimize Redis caching before next release
+Marketing,Schedule landing page copy using new brand voice
+Marketing,Refresh competitor backlink profile to improve CTR
+Marketing,A/B Test drip campaign targeting SaaS founders
+Marketing,Schedule Facebook ad creatives using new brand voice
+Marketing,Launch drip campaign for upcoming webinar
+Marketing,Refresh drip campaign targeting SaaS founders
+Marketing,Launch drip campaign for upcoming webinar
+Marketing,A/B Test drip campaign to improve CTR
+Marketing,Schedule Facebook ad creatives using new brand voice
+Marketing,Refresh Q3 newsletter for holiday promotion
+Marketing,Launch Q3 newsletter using new brand voice
+Marketing,Draft SEO keywords for holiday promotion
+Marketing,Analyze drip campaign using new brand voice
+Marketing,Schedule SEO keywords for holiday promotion
+Marketing,Draft drip campaign for upcoming webinar
+Marketing,A/B Test landing page copy for holiday promotion
+Marketing,Design competitor backlink profile targeting SaaS founders
+Marketing,Analyze Facebook ad creatives for holiday promotion
+Marketing,Optimize drip campaign using new brand voice
+Marketing,Schedule Q3 newsletter for upcoming webinar
+Marketing,Schedule Facebook ad creatives targeting SaaS founders
+Marketing,A/B Test SEO keywords targeting SaaS founders
+Marketing,Analyze landing page copy for upcoming webinar
+Marketing,A/B Test onboarding email sequence using new brand voice
+Marketing,Draft onboarding email sequence targeting SaaS founders
+Marketing,Launch SEO keywords for holiday promotion
+Marketing,A/B Test Q3 newsletter for upcoming webinar
+Marketing,Design Facebook ad creatives targeting SaaS founders
+Marketing,Refresh drip campaign for upcoming webinar
+Marketing,Launch SEO keywords to boost conversion
+Marketing,Design landing page copy to boost conversion
+Marketing,Audit drip campaign targeting SaaS founders
+Marketing,Optimize Q3 newsletter targeting SaaS founders
+Marketing,A/B Test Facebook ad creatives for upcoming webinar
+Marketing,Optimize landing page copy to improve CTR
+Marketing,A/B Test competitor backlink profile to boost conversion
+Marketing,Optimize onboarding email sequence to improve CTR
+Marketing,Draft Q3 newsletter using new brand voice
+Marketing,Audit onboarding email sequence for holiday promotion
+Marketing,Draft landing page copy to improve CTR
+Marketing,Launch drip campaign to boost conversion
+Marketing,Schedule onboarding email sequence to improve CTR
+Marketing,Design SEO keywords to boost conversion
+Marketing,Design drip campaign using new brand voice
+Marketing,Refresh landing page copy targeting SaaS founders
+Marketing,Draft drip campaign using new brand voice
+Marketing,Launch onboarding email sequence to boost conversion
+Marketing,Design Q3 newsletter targeting SaaS founders
+Marketing,Design Facebook ad creatives to improve CTR
+Marketing,Analyze drip campaign targeting SaaS founders
