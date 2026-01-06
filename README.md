@@ -9,6 +9,16 @@ A Python tool to generate realistic seed data mimicking a large B2B SaaS organiz
 - **Scalable**: Can generate 5000+ users and associated data.
 - **Schema Compliance**: Fully relational SQLite database mirroring Asana's core entities.
 
+## How to get the API Key
+Below are the steps to generate the gemini api key that is to be used in this repo.
+
+- Sign in to https://aistudio.google.com/ 
+- Bottom left near the profile logo, there will be an option Get API Key , select it.
+- Click Create API Key, if there is no project available, create a new one by following the details.
+- Enter a name and select a project from dropdown.
+- You would be able to see your API Key and its details in the console.
+
+
 ## Setup
 
 1. **Install Dependencies**
