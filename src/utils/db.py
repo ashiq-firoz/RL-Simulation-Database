@@ -1,40 +1,33 @@
+
 import sqlite3
 import os
 from pathlib import Path
 
-def get_db_connection(db_path: str = "../output/asana_simulation.sqlite"):
+DB_PATH = Path("output/asana_simulation.sqlite")
+SCHEMA_PATH = Path("schema.sql")
+
+def get_connection(db_path=DB_PATH):
     """Creates a connection to the SQLite database."""
-    # Ensure output directory exists
     os.makedirs(os.path.dirname(db_path), exist_ok=True)
-    
     conn = sqlite3.connect(db_path)
-    # This enables column access by name: row['column_name']
-    conn.row_factory = sqlite3.Row 
+    conn.row_factory = sqlite3.Row
     return conn
 
-def init_database(schema_path: str = "../schema.sql", db_path: str = "../output/asana_simulation.sqlite"):
-    """
-    Reads the schema.sql file and executes it to create tables.
-    Drops existing data if the file exists to ensure a clean slate.
-    """
-    print(f"Initializing database at {db_path}...")
-    
-    # Check if schema exists
-    if not os.path.exists(schema_path):
+def init_db(db_path=DB_PATH, schema_path=SCHEMA_PATH):
+    """Initializes the database using the schema file."""
+    if not schema_path.exists():
         raise FileNotFoundError(f"Schema file not found at {schema_path}")
+    
+    conn = get_connection(db_path)
+    with open(schema_path, "r") as f:
+        schema = f.read()
+    
+    conn.executescript(schema)
+    conn.commit()
+    conn.close()
+    print(f"Database initialized at {db_path}")
 
-    # Read schema
-    with open(schema_path, 'r') as f:
-        schema_sql = f.read()
-
-    conn = get_db_connection(db_path)
-    cursor = conn.cursor()
-
-    try:
-        cursor.executescript(schema_sql)
-        conn.commit()
-        print("Database initialized and tables created successfully.")
-    except sqlite3.Error as e:
-        print(f"An error occurred while initializing the database: {e}")
-    finally:
-        conn.close()
+def wipe_db(db_path=DB_PATH):
+    if os.path.exists(db_path):
+        os.remove(db_path)
+        print(f"Removed existing database at {db_path}")

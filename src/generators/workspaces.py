@@ -1,17 +1,31 @@
-import pandas as pd
-import os
-from uuid import uuid4
 
-def generate_workspaces():
-    workspaces = [{
-        "workspace_id": str(uuid4()),
-        "name": "Acme SaaS Inc.",
-        "domain": "acme-saas.com"
-    }]
+from src.utils.db import get_connection
+from src.utils.helpers import generate_uuid
+from datetime import datetime, timedelta
 
-    os.makedirs("data", exist_ok=True)
-    pd.DataFrame(workspaces).to_csv("data/workspaces.csv", index=False)
-    print("Created: data/workspaces.csv")
+def generate_workspaces(conn):
+    """
+    Generates the primary workspace for the simulation.
+    """
+    cursor = conn.cursor()
+    
+    # Check if workspace already exists
+    cursor.execute("SELECT count(*) FROM workspaces")
+    if cursor.fetchone()[0] > 0:
+        print("Workspaces already exist. Skipping.")
+        return
 
-if __name__ == "__main__":
-    generate_workspaces()
+    # Simulation: A B2B SaaS Company
+    workspace_id = generate_uuid()
+    name = "TechFlow Solutions"
+    domain = "techflow.io"
+    created_at = datetime.now() - timedelta(days=365*5) # 5 years old
+
+    cursor.execute("""
+        INSERT INTO workspaces (workspace_id, name, domain, created_at)
+        VALUES (?, ?, ?, ?)
+    """, (workspace_id, name, domain, created_at))
+    
+    conn.commit()
+    print(f"Generated Workspace: {name} ({workspace_id})")
+    return workspace_id
