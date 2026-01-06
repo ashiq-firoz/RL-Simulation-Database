@@ -16,8 +16,8 @@ A Python tool to generate realistic seed data mimicking a large B2B SaaS organiz
    pip install -r requirements.txt
    ```
 
-2. **Environment Setup (Optional)**
-   To enable LLM generation, set your API key:
+2. **Environment Setup**
+   To enable LLM generation , set your API key. (Without API Key the code will use default scraped dummy values)
    ```bash
    # Windows PowerShell
    $env:GEMINI_API_KEY="your-key-here"
@@ -25,15 +25,11 @@ A Python tool to generate realistic seed data mimicking a large B2B SaaS organiz
 
 ## Usage
 
-### Run Default Simulation (Demo Mode - 500 Users)
+### Run Simulation
 ```bash
 python src/main.py
 ```
 
-### Run Full Simulation (5000+ Users)
-```bash
-python src/main.py full
-```
 
 The output database will be created at `output/asana_simulation.sqlite`.
 
@@ -41,7 +37,7 @@ The output database will be created at `output/asana_simulation.sqlite`.
 - `schema.sql`: Database definition.
 - `src/generators/`: logic for creating Users, Teams, Projects, etc.
 - `src/main.py`: Orchestrator script.
-- `src/scrapers/`: Scripts to fetch/generate seed data (YC companies, Census names, etc).
+- `src/scrapers/`: Scripts to fetch/generate seed data (YC companies, Census names, etc). 
 - `DOCUMENTATION.md`: Detailed methodology and schema design.
 
 ## Data Regeneration

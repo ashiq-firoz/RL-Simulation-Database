@@ -2,16 +2,13 @@
 import os
 import sys
 
-# Add project root to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
 from src.scrapers.scrape_yc_companies import scrape_yc_companies
 from src.scrapers.fetch_census_data import fetch_census_names
 from src.scrapers.generate_marketing_tasks import generate_marketing_csv
 from src.scrapers.generate_comment_templates import generate_comments_csv
-# Note: GitHub and StackOverflow scrapers might require API keys or run into rate limits, 
-# so we might skip them in the default batch or run conditionally.
-# For this simulation, we'll run the deterministic generators we just created.
+
 
 def run_all_scrapers():
     print("=== Running Data Scrapers/Generators ===")
