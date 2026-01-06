@@ -4,6 +4,7 @@ from src.utils.db import get_connection
 from src.utils.helpers import generate_uuid, random_date
 from datetime import datetime, timedelta
 import random
+import pandas as pd
 
 fake = Faker()
 
@@ -22,18 +23,26 @@ JOB_TITLES = {
     "Operations": [("HR Specialist", 0.4), ("Recruiter", 0.3), ("Office Manager", 0.3)]
 }
 
-def generate_users(conn, workspace_id, count=5000):
+def generate_users(conn, workspace_id, domain="startup.io", count=5000):
     print(f"Generating {count} users...")
     cursor = conn.cursor()
     
     users_data = []
     base_date = datetime.now() - timedelta(days=365*5)
-    
-    # Pre-generate emails to ensure uniqueness
     emails = set()
-    while len(emails) < count:
-        emails.add(fake.unique.email())
-    emails = list(emails)
+    
+    # Load Census Names
+    try:
+        df_names = pd.read_csv("src/scrapers/data/census_names.csv")
+        first_names = df_names['first_name'].tolist()
+        last_names = df_names['last_name'].tolist()
+        probs = df_names['probability'].tolist()
+        # Normalise probs
+        total_prob = sum(probs)
+        probs = [p/total_prob for p in probs]
+    except Exception as e:
+        print(f"Warning: Could not load Census data ({e}). Using Faker.")
+        first_names, last_names, probs = [], [], []
 
     for i in range(count):
         user_id = generate_uuid()
@@ -43,8 +52,25 @@ def generate_users(conn, workspace_id, count=5000):
         titles, weights = zip(*JOB_TITLES[dept])
         job_title = random.choices(titles, weights=weights, k=1)[0]
         
-        full_name = fake.name()
-        email = emails[i]
+        if first_names:
+            # Weighted random name
+            fname = random.choices(first_names, weights=probs, k=1)[0]
+            lname = random.choices(last_names, weights=probs, k=1)[0]
+            full_name = f"{fname} {lname}"
+            
+            # Ensure unique email
+            base_email = f"{fname.lower()}.{lname.lower()}"
+            email = f"{base_email}@{domain}"
+            counter = 1
+            while email in emails:
+                email = f"{base_email}{counter}@{domain}"
+                counter += 1
+            emails.add(email)
+        else:
+            full_name = fake.name()
+            email = fake.unique.email()
+            emails.add(email)
+            
         avatar_url = fake.image_url()
         
         # Growth curve: more users joined recently

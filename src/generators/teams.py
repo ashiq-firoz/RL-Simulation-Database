@@ -1,7 +1,7 @@
 
 from src.utils.db import get_connection
 from src.utils.helpers import generate_uuid, random_date
-from datetime import datetime
+from datetime import datetime, timedelta
 import random
 
 CORE_TEAMS = {

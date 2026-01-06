@@ -41,4 +41,11 @@ The output database will be created at `output/asana_simulation.sqlite`.
 - `schema.sql`: Database definition.
 - `src/generators/`: logic for creating Users, Teams, Projects, etc.
 - `src/main.py`: Orchestrator script.
+- `src/scrapers/`: Scripts to fetch/generate seed data (YC companies, Census names, etc).
 - `DOCUMENTATION.md`: Detailed methodology and schema design.
+
+## Data Regeneration
+To update the seed data sources (CSVs in `src/scrapers/data/`):
+```bash
+python src/scrapers/run_scrapers.py
+```

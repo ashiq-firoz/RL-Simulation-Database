@@ -8,23 +8,41 @@ This simulation uses a relational SQLite database designed to mirror Asana's cor
 ### Entity-Relationship Diagram (ERD)
 *Note: This description corresponds to the `schema.sql` file.*
 
-- **Workspaces**: The root container.
-    - One-to-Many -> **Teams**
-    - One-to-Many -> **Users**
-    - One-to-Many -> **Tags**
-- **Users**: Members of the workspace.
-    - One-to-Many -> **Team Memberships** (Many-to-Many link to Teams)
-    - One-to-Many -> **Tasks** (as Assignee or Creator)
-- **Teams**: Functional groups.
-    - One-to-Many -> **Projects**
-- **Projects**: Collections of tasks.
-    - One-to-Many -> **Sections**
-    - One-to-Many -> **Tasks**
-- **Tasks**: The unit of work.
-    - Self-Reference -> **Parent Task** (Subtasks)
-    - Many-to-Many -> **Tags**
-    - One-to-Many -> **Stories** (Comments)
-    - One-to-Many -> **Custom Field Values**
+### Entity-Relationship Diagram (ERD)
+
+```mermaid
+erDiagram
+    WORKSPACES ||--|{ TEAMS : contains
+    WORKSPACES ||--|{ USERS : members
+    WORKSPACES ||--|{ CUSTOM_FIELD_DEFINITIONS : defines
+    TEAMS ||--|{ PROJECTS : owns
+    TEAMS ||--|{ TEAM_MEMBERSHIPS : has
+    USERS ||--|{ TEAM_MEMBERSHIPS : belongs
+    PROJECTS ||--|{ SECTIONS : has
+    PROJECTS ||--|{ TASKS : contains
+    PROJECTS ||--|{ PROJECT_CUSTOM_FIELDS : uses
+    TASKS ||--|| TASKS : subtask_of
+    TASKS ||--|{ STORIES : has
+    TASKS ||--|{ CUSTOM_FIELD_VALUES : has
+    TASKS ||--|{ TASK_TAGS : tagged_with
+
+    TASKS {
+        uuid task_id PK
+        string name
+        string description
+        string assignee_id FK
+        string section_id FK
+    }
+    
+    USERS {
+        uuid user_id PK
+        string email
+        string full_name
+    }
+```
+
+*Note: This diagram represents the core relationships found in `schema.sql`.*
+
 
 ### Design Decisions
 1.  **Custom Fields (EAV)**: Implemented using an Entity-Attribute-Value model (`custom_field_definitions`, `custom_field_values`) to support Asana's flexible per-project field schema.
@@ -36,12 +54,14 @@ This simulation uses a relational SQLite database designed to mirror Asana's cor
 ## Section B: Seed Data Methodology
 
 ### 1. Data Sources
-- **Users**: Generated using `Faker` library to provide realistic names, emails, and avatars.
-- **Job Titles**: Weighted distribution based on a typical SaaS org structure (40% Engineering/Product, 30% Sales/Marketing, 30% Ops).
-- **Project Names**: Template-based generation derived from common industry patterns (e.g., "Q3 Roadmap", "Website Redesign").
-- **Task Names**: Hybrid approach:
-    - **Templates**: High-frequency patterns like "[Auth] - Fix login".
-    - **LLM**: Optional integration with Google Gemini to generate context-aware task names and rich text descriptions.
+- **Users**: Generated using weighted Census name data (`census_names.csv`) and `Faker` for realistic profiles.
+- **Companies**: Real Y-Combinator company names scraped from public directories (`yc_companies.csv`).
+- **Tasks**:
+    - **Engineering**: Patterns scraped from GitHub Issues (`github_issues.csv`).
+    - **Marketing**: Campaign templates (`marketing_tasks.csv`).
+    - **General**: Operational task patterns (`general_tasks.csv`).
+- **Job Titles**: Weighted distribution based on a typical SaaS org structure.
+- **LLM**: Optional integration with Google Gemini for rich text descriptions.
 
 ### 2. Distribution Strategy
 | Table | Strategy | Justification |

@@ -2,6 +2,7 @@
 from src.utils.db import get_connection
 from src.utils.helpers import generate_uuid
 from datetime import datetime, timedelta
+import pandas as pd
 
 def generate_workspaces(conn):
     """
@@ -15,11 +16,19 @@ def generate_workspaces(conn):
         print("Workspaces already exist. Skipping.")
         return
 
-    # Simulation: A B2B SaaS Company
+    # Load YC Companies
+    try:
+        df = pd.read_csv("src/scrapers/data/yc_companies.csv")
+        company = df.sample(1).iloc[0]
+        name = company['company_name']
+        domain = company['domain']
+    except Exception as e:
+        print(f"Warning: Could not load YC data ({e}). Using default.")
+        name = "TechFlow Solutions"
+        domain = "techflow.io"
+
     workspace_id = generate_uuid()
-    name = "TechFlow Solutions"
-    domain = "techflow.io"
-    created_at = datetime.now() - timedelta(days=365*5) # 5 years old
+    created_at = datetime.now() - timedelta(days=365*5)
 
     cursor.execute("""
         INSERT INTO workspaces (workspace_id, name, domain, created_at)
@@ -28,4 +37,4 @@ def generate_workspaces(conn):
     
     conn.commit()
     print(f"Generated Workspace: {name} ({workspace_id})")
-    return workspace_id
+    return workspace_id,domain

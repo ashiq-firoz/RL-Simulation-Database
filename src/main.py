@@ -2,7 +2,7 @@
 import sys
 import os
 from pathlib import Path
-# Fix import path
+
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from src.utils.db import init_db, wipe_db, get_connection
@@ -22,14 +22,9 @@ def main():
     # Configuration
     DB_PATH = Path("output/asana_simulation.sqlite")
     SCHEMA_PATH = Path("schema.sql")
-    USER_COUNT = 500  # Default to 500 for testing, user can scale up code or args if needed. 
-                      # Requirement says 5000-10000. I'll set default to 5000 if "prod" arg is passed.
+    USER_COUNT = 5000  
     
-    if len(sys.argv) > 1 and sys.argv[1] == "full":
-        USER_COUNT = 5000
-        print("Running in FULL mode (5000 users). This may take a while.")
-    else:
-        print("Running in DEMO mode (500 users). Use 'python src/main.py full' for 5000 users.")
+    
 
     # 1. Setup
     wipe_db(DB_PATH)
@@ -41,14 +36,16 @@ def main():
     try:
         # 2. Generators
         print("\n--- Phase 1: Organization Structure ---")
-        ws_id = generate_workspaces(conn)
+        ws_id, domain = generate_workspaces(conn)
         if not ws_id:
              # Fetch existing if skipped
              cursor = conn.cursor()
-             cursor.execute("SELECT workspace_id FROM workspaces LIMIT 1")
-             ws_id = cursor.fetchone()[0]
+             cursor.execute("SELECT workspace_id, domain FROM workspaces LIMIT 1")
+             row = cursor.fetchone()
+             ws_id = row[0]
+             domain = row[1] if row else "startup.io"
 
-        generate_users(conn, ws_id, count=USER_COUNT)
+        generate_users(conn, ws_id, domain=domain, count=USER_COUNT)
         
         teams = generate_teams(conn, ws_id)
         assign_memberships(conn, teams)

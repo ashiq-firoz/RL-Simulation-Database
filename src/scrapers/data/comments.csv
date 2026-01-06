@@ -1,0 +1,19 @@
+category,type,content
+Engineering,comment,Can we check the logs for this?
+Engineering,comment,I think this is related to the recent migration.
+Engineering,comment,LGTM. Merging now.
+Engineering,comment,Added unit tests.
+Engineering,comment,Blocking issue on the API side.
+Marketing,comment,Can you use the new color palette?
+Marketing,comment,"Copy looks good, but title needs punch."
+Marketing,comment,Scheduled for next Tuesday.
+Marketing,comment,Waiting on design assets.
+General,comment,APPROVED.
+General,comment,Please attach the invoice.
+General,comment,Let's discuss in the sync.
+General,comment,Updated the spreadsheet.
+All,system,Task Created
+All,system,Due Date Changed
+All,system,Task Assigned
+All,system,Task Completed
+All,system,Task Closed
